@@ -1,0 +1,32 @@
+node_modules
+.next
+.npm-cache
+test-results
+playwright-report
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Local databases and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.sql.dump
+
+# Test output and logs
+coverage/
+blob-report/
+playwright/.cache/
+*.log

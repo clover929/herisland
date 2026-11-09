@@ -1,0 +1,1 @@
+import type {Post} from "../types"; export function filterPosts(posts:Post[],query:string,category:string){return posts.filter(p=>(category==="全部"||p.category===category)&&(p.title+p.content).toLowerCase().includes(query.trim().toLowerCase()));}

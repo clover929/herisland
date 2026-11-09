@@ -1,0 +1,1 @@
+export type Post={id:string;title:string;content:string;category:string;author:string;mode:string}; export type Comment={postId:string;text:string}; export type State={posts:Post[];saved:string[];joined:string[];comments:Comment[]};

@@ -1,0 +1,1 @@
+import "./globals.css";import type {Metadata} from "next";export const metadata:Metadata={title:"HerSpace · 在这里，自在生长",description:"成年女性交流与互助社区 · 本地演示"};export default function Layout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}

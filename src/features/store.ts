@@ -1,0 +1,3 @@
+import type {State} from "../types";
+export const initial:State={posts:[],saved:[],joined:[],comments:[]};
+export function parseState(raw:string|null):State {if(!raw)return initial;const s:unknown=JSON.parse(raw);if(!s||typeof s!=="object")throw Error("数据格式错误");const v=s as State;if(!Array.isArray(v.posts)||!Array.isArray(v.saved)||!Array.isArray(v.joined)||!Array.isArray(v.comments)||!v.saved.every(x=>typeof x==="string")||!v.joined.every(x=>typeof x==="string")||!v.posts.every(p=>p&&[p.id,p.title,p.content,p.category,p.author,p.mode].every(x=>typeof x==="string"))||!v.comments.every(c=>c&&typeof c.postId==="string"&&typeof c.text==="string"))throw Error("本地数据损坏");return v;}
