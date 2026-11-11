@@ -1,0 +1,338 @@
+{
+  "batch": "004",
+  "previousBatch": "003",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "grace-hopper",
+    "chien-shiung-wu",
+    "virginia-apgar",
+    "jackie-joyner-kersee",
+    "mary-kay-ash",
+    "maya-angelou",
+    "yayoi-kusama",
+    "mary-mcleod-bethune",
+    "rosa-parks",
+    "valentina-tereshkova"
+  ],
+  "reusedCandidates": [
+    "grace-hopper",
+    "chien-shiung-wu"
+  ],
+  "newRecords": 8,
+  "failures": [
+    {
+      "url": "https://www.usatf.org/athlete-bios/jackie-joyner-kersee",
+      "outcome": "两次超时，改读人物官方网站",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.loc.gov/collections/rosa-parks-papers/articles-and-essays/timeline/",
+      "outcome": "403 Forbidden，改读Stanford King Institute",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nationalbook.org/awards-prizes/literarian-award/",
+      "outcome": "工具无法访问，使用已读取的人物档案确认2013年奖项",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "排除此前22位已核实人物；复用霍珀、吴健雄候选，新增8位；不发布。",
+    "草间弥生美术馆英文页面只返回导航，改读官方个人传记与森美术馆专题。",
+    "Maya官方页查找1969无匹配，改读National Book Foundation；不采用其中就职朗诵及自由勋章年份。",
+    "Mary Kay公司时间线同一奖项出现1976与1978口径，不采用该奖项；公司自述不作为参与者收益保证。",
+    "吴健雄校史的学会任职年份未独立交叉核对，不采用；不将弱相互作用结论扩大为所有过程。",
+    "霍珀A-0保留早期系统名称，不扩张技术优先权称谓。",
+    "不使用乔伊纳-克西旧页面中当前仍保持纪录的时效断言。",
+    "ESA与NASA对训练队人数和精确时长表述不同，使用近三天；48圈单独映射NASA来源。",
+    "所有记录使用HerSpace原创占位图，未下载第三方肖像；中文名为译名，地区为生涯关联地区。"
+  ],
+  "evidence": [
+    {
+      "slug": "grace-hopper",
+      "sources": [
+        {
+          "title": "Yale：Grace Murray Hopper传记",
+          "url": "https://president.yale.edu/biography-grace-murray-hopper",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1934年获得耶鲁大学数学博士学位。",
+          "sourceUrls": [
+            "https://president.yale.edu/biography-grace-murray-hopper"
+          ]
+        },
+        {
+          "claim": "1952年开发A-0自动编程系统。",
+          "sourceUrls": [
+            "https://president.yale.edu/biography-grace-murray-hopper"
+          ]
+        }
+      ],
+      "summaryLength": 129,
+      "storyLength": 391
+    },
+    {
+      "slug": "chien-shiung-wu",
+      "sources": [
+        {
+          "title": "Columbia：Chien-Shiung Wu校史档案",
+          "url": "https://www.c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1956年至1957年初与同事完成检验弱相互作用宇称对称性的实验。",
+          "sourceUrls": [
+            "https://www.c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html"
+          ]
+        },
+        {
+          "claim": "1978年获得首届沃尔夫物理学奖。",
+          "sourceUrls": [
+            "https://www.c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html"
+          ]
+        }
+      ],
+      "summaryLength": 129,
+      "storyLength": 384
+    },
+    {
+      "slug": "virginia-apgar",
+      "sources": [
+        {
+          "title": "Columbia CUIMC：Virginia Apgar研究遗产",
+          "url": "https://www.cuimc.columbia.edu/news/virginia-apgars-legacy-continues-50-years-after-her-death",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "NLM：Virginia Apgar传记",
+          "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_virginia_apgar.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1952年介绍阿普加评分，1953年发表。",
+          "sourceUrls": [
+            "https://www.cuimc.columbia.edu/news/virginia-apgars-legacy-continues-50-years-after-her-death"
+          ]
+        },
+        {
+          "claim": "1949年成为哥伦比亚大学医学院首位女性正教授。",
+          "sourceUrls": [
+            "https://www.cuimc.columbia.edu/news/virginia-apgars-legacy-continues-50-years-after-her-death"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 388
+    },
+    {
+      "slug": "jackie-joyner-kersee",
+      "sources": [
+        {
+          "title": "Jackie Joyner-Kersee：官方人物与比赛档案",
+          "url": "https://www.jackiejoynerkersee.com/about/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1988年首尔奥运会获七项全能和跳远金牌，七项全能成绩7291分。",
+          "sourceUrls": [
+            "https://www.jackiejoynerkersee.com/about/"
+          ]
+        },
+        {
+          "claim": "1992年巴塞罗那奥运会卫冕七项全能冠军。",
+          "sourceUrls": [
+            "https://www.jackiejoynerkersee.com/about/"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 387
+    },
+    {
+      "slug": "mary-kay-ash",
+      "sources": [
+        {
+          "title": "Mary Kay Global：Mary Kay Ash创办人时间线",
+          "url": "https://marykayglobal.com/our-founder-mary-kay-ash/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1963年9月13日与家人建立Beauty by Mary Kay。",
+          "sourceUrls": [
+            "https://marykayglobal.com/our-founder-mary-kay-ash/"
+          ]
+        },
+        {
+          "claim": "1981年出版自传《Mary Kay》。",
+          "sourceUrls": [
+            "https://marykayglobal.com/our-founder-mary-kay-ash/"
+          ]
+        }
+      ],
+      "summaryLength": 136,
+      "storyLength": 399
+    },
+    {
+      "slug": "maya-angelou",
+      "sources": [
+        {
+          "title": "National Book Foundation：Maya Angelou人物档案",
+          "url": "https://www.nationalbook.org/people/dr-maya-angelou/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Caged Bird Legacy：官方传记",
+          "url": "https://www.mayaangelou.com/biography/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1969年出版自传《我知道笼中鸟为何歌唱》。",
+          "sourceUrls": [
+            "https://www.nationalbook.org/people/dr-maya-angelou/"
+          ]
+        },
+        {
+          "claim": "2013年获美国国家图书基金会Literarian Award。",
+          "sourceUrls": [
+            "https://www.nationalbook.org/people/dr-maya-angelou/"
+          ]
+        }
+      ],
+      "summaryLength": 128,
+      "storyLength": 389
+    },
+    {
+      "slug": "yayoi-kusama",
+      "sources": [
+        {
+          "title": "Yayoi Kusama：官方英文传记",
+          "url": "https://yayoi-kusama.jp/en/biography/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Mori Art Museum：STARS艺术家专题",
+          "url": "https://www.mori.art.museum/en/exhibitions/stars/02/index.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1957年前往美国，随后在纽约开展网状绘画、软雕塑及镜面装置创作。",
+          "sourceUrls": [
+            "https://yayoi-kusama.jp/en/biography/"
+          ]
+        },
+        {
+          "claim": "1973年返回日本后继续小说、诗歌和装置创作。",
+          "sourceUrls": [
+            "https://yayoi-kusama.jp/en/biography/"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 372
+    },
+    {
+      "slug": "mary-mcleod-bethune",
+      "sources": [
+        {
+          "title": "NPS：Mary McLeod Bethune人物历史",
+          "url": "https://www.nps.gov/mamc/learn/historyculture/mary-mcleod-bethune.htm",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1904年10月3日在代托纳比奇创办面向非裔女孩的学校。",
+          "sourceUrls": [
+            "https://www.nps.gov/mamc/learn/historyculture/mary-mcleod-bethune.htm"
+          ]
+        },
+        {
+          "claim": "1935年12月5日创立全国黑人妇女理事会并任首任主席。",
+          "sourceUrls": [
+            "https://www.nps.gov/mamc/learn/historyculture/mary-mcleod-bethune.htm"
+          ]
+        }
+      ],
+      "summaryLength": 126,
+      "storyLength": 389
+    },
+    {
+      "slug": "rosa-parks",
+      "sources": [
+        {
+          "title": "Stanford King Institute：Rosa Parks人物档案",
+          "url": "https://kinginstitute.stanford.edu/parks-rosa",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1943年加入蒙哥马利NAACP并当选秘书。",
+          "sourceUrls": [
+            "https://kinginstitute.stanford.edu/parks-rosa"
+          ]
+        },
+        {
+          "claim": "1955年12月1日因拒绝在蒙哥马利公交车上让座而被捕。",
+          "sourceUrls": [
+            "https://kinginstitute.stanford.edu/parks-rosa"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 386
+    },
+    {
+      "slug": "valentina-tereshkova",
+      "sources": [
+        {
+          "title": "ESA：First woman in space历史档案",
+          "url": "https://www.esa.int/articles/about-us/who-we-are/history/first-woman-in-space-valentina",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "NASA StarChild：Valentina Tereshkova",
+          "url": "https://starchild.gsfc.nasa.gov/docs/StarChild/whos_who_level2/tereshkova.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1963年6月16日乘东方六号升空，成为首位进入太空的女性。",
+          "sourceUrls": [
+            "https://www.esa.int/articles/about-us/who-we-are/history/first-woman-in-space-valentina"
+          ]
+        },
+        {
+          "claim": "飞行持续近三天，并记录身体反应与拍摄地球。",
+          "sourceUrls": [
+            "https://www.esa.int/articles/about-us/who-we-are/history/first-woman-in-space-valentina"
+          ]
+        },
+        {
+          "claim": "东方六号绕地球48圈。",
+          "sourceUrls": [
+            "https://starchild.gsfc.nasa.gov/docs/StarChild/whos_who_level2/tereshkova.html"
+          ]
+        }
+      ],
+      "summaryLength": 121,
+      "storyLength": 372
+    }
+  ]
+}

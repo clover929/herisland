@@ -1,0 +1,316 @@
+{
+  "batch": "002",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "maryam-mirzakhani",
+    "marie-curie",
+    "elizabeth-blackwell",
+    "billie-jean-king",
+    "madam-cj-walker",
+    "toni-morrison",
+    "frida-kahlo",
+    "maria-montessori",
+    "wangari-maathai",
+    "sally-ride"
+  ],
+  "previousBatch": "001",
+  "reusedCandidates": [
+    "marie-curie",
+    "sally-ride"
+  ],
+  "newRecords": 8,
+  "failures": [],
+  "notes": [
+    "全部已读取来源正文；本批未遇HTTP访问失败。",
+    "NMWA页面查找1925无匹配；改读卡洛故居博物馆PDF确认事故年份。",
+    "IAS旧档案称米尔扎哈尼仍为唯一女性菲尔兹奖得主，已过时，未采用；只采用2014年首位女性得主事实。",
+    "不采用科学史研究所传记的居里死因描述；本批未核对医学史。",
+    "布莱克韦尔录取投票动机有不同版本，不采用心理解释。",
+    "所有人物继续使用HerSpace原创占位图，未复制第三方人物照片。",
+    "中文名为常见译名；机构来源主要提供英文名；regions表示人物生涯关联地区，不等同于国籍断言。",
+    "本批不发布，保留之前两位已核实人物记录。"
+  ],
+  "evidence": [
+    {
+      "slug": "maryam-mirzakhani",
+      "sources": [
+        {
+          "title": "Stanford：2014年菲尔兹奖报道",
+          "url": "https://news.stanford.edu/stories/2014/08/stanfords-maryam-mirzakhani-wins-fields-medal",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "IAS：学者档案",
+          "url": "https://www.ias.edu/scholars/maryam-mirzakhani",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "数学家；2014年获菲尔兹奖，成为首位女性得主。",
+          "sourceUrls": [
+            "https://news.stanford.edu/stories/2014/08/stanfords-maryam-mirzakhani-wins-fields-medal"
+          ]
+        },
+        {
+          "claim": "数学家；任斯坦福大学数学教授，研究几何与动力系统。",
+          "sourceUrls": [
+            "https://news.stanford.edu/stories/2014/08/stanfords-maryam-mirzakhani-wins-fields-medal"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 358
+    },
+    {
+      "slug": "marie-curie",
+      "sources": [
+        {
+          "title": "Science History Institute：Marie Sklodowska Curie",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "物理学家、化学家；与皮埃尔·居里、贝克勒尔共享1903年诺贝尔物理学奖。",
+          "sourceUrls": [
+            "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+          ]
+        },
+        {
+          "claim": "物理学家、化学家；1911年获得诺贝尔化学奖。",
+          "sourceUrls": [
+            "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+          ]
+        }
+      ],
+      "summaryLength": 122,
+      "storyLength": 371
+    },
+    {
+      "slug": "elizabeth-blackwell",
+      "sources": [
+        {
+          "title": "Hobart and William Smith Colleges：Blackwell传记",
+          "url": "https://www.hws.edu/about/history/elizabeth-blackwell/biography.aspx",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "医生、医学教育倡导者；1849年1月23日从日内瓦医学院毕业。",
+          "sourceUrls": [
+            "https://www.hws.edu/about/history/elizabeth-blackwell/biography.aspx"
+          ]
+        },
+        {
+          "claim": "医生、医学教育倡导者；创办纽约妇女儿童医院，并参与建立其医学院。",
+          "sourceUrls": [
+            "https://www.hws.edu/about/history/elizabeth-blackwell/biography.aspx"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 361
+    },
+    {
+      "slug": "billie-jean-king",
+      "sources": [
+        {
+          "title": "Billie Jean King：官方传记",
+          "url": "https://www.billiejeanking.com/biography/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "网球运动员；职业生涯获得39项大满贯冠军，含单打、女双和混双。",
+          "sourceUrls": [
+            "https://www.billiejeanking.com/biography/"
+          ]
+        },
+        {
+          "claim": "网球运动员；1973年推动成立女子网球协会并任首任主席。",
+          "sourceUrls": [
+            "https://www.billiejeanking.com/biography/"
+          ]
+        }
+      ],
+      "summaryLength": 129,
+      "storyLength": 381
+    },
+    {
+      "slug": "madam-cj-walker",
+      "sources": [
+        {
+          "title": "Smithsonian：Madam C. J. Walker Collection",
+          "url": "https://transcription.si.edu/initiatives/madam-c-j-walker-collection",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "企业家、教育者、慈善家；1908年在匹兹堡开设Lelia美容学校，培训女性代理人。",
+          "sourceUrls": [
+            "https://transcription.si.edu/initiatives/madam-c-j-walker-collection"
+          ]
+        },
+        {
+          "claim": "企业家、教育者、慈善家；1910年在印第安纳波利斯正式建立Madam C.J. Walker Manufacturing Company。",
+          "sourceUrls": [
+            "https://transcription.si.edu/initiatives/madam-c-j-walker-collection"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 374
+    },
+    {
+      "slug": "toni-morrison",
+      "sources": [
+        {
+          "title": "Princeton：Toni Morrison学者档案",
+          "url": "https://aas.princeton.edu/people/toni-morrison",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "小说家、编辑、大学教师；1988年凭《宠儿》获得普利策奖。",
+          "sourceUrls": [
+            "https://aas.princeton.edu/people/toni-morrison"
+          ]
+        },
+        {
+          "claim": "小说家、编辑、大学教师；1993年获得诺贝尔文学奖。",
+          "sourceUrls": [
+            "https://aas.princeton.edu/people/toni-morrison"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 388
+    },
+    {
+      "slug": "frida-kahlo",
+      "sources": [
+        {
+          "title": "NMWA：Frida Kahlo艺术家档案",
+          "url": "https://nmwa.org/art/artists/frida-kahlo/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Museo Frida Kahlo：英文传记PDF",
+          "url": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "画家；1938年在纽约朱利安·利维画廊举办首次个人展览。",
+          "sourceUrls": [
+            "https://nmwa.org/art/artists/frida-kahlo/"
+          ]
+        },
+        {
+          "claim": "画家；在恢复期间开始油画创作，绘制自画像与静物画。",
+          "sourceUrls": [
+            "https://nmwa.org/art/artists/frida-kahlo/"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 384
+    },
+    {
+      "slug": "maria-montessori",
+      "sources": [
+        {
+          "title": "AMI：Maria Montessori传记",
+          "url": "https://montessori-ami.org/node/1820",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "医生、教育家；1896年完成医学训练，成为意大利早期女性医生之一。",
+          "sourceUrls": [
+            "https://montessori-ami.org/node/1820"
+          ]
+        },
+        {
+          "claim": "医生、教育家；1907年1月6日在罗马开设第一所儿童之家。",
+          "sourceUrls": [
+            "https://montessori-ami.org/node/1820"
+          ]
+        }
+      ],
+      "summaryLength": 126,
+      "storyLength": 388
+    },
+    {
+      "slug": "wangari-maathai",
+      "sources": [
+        {
+          "title": "Green Belt Movement：Wangari Maathai档案",
+          "url": "https://www.greenbeltmovement.org/wangari-maathai/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Green Belt Movement：组织历史",
+          "url": "https://www.greenbeltmovement.org/history/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "环境行动者、大学教师；1971年获内罗毕大学博士学位，并在该校教授兽医解剖学。",
+          "sourceUrls": [
+            "https://www.greenbeltmovement.org/wangari-maathai/"
+          ]
+        },
+        {
+          "claim": "环境行动者、大学教师；2004年获得诺贝尔和平奖。",
+          "sourceUrls": [
+            "https://www.greenbeltmovement.org/wangari-maathai/"
+          ]
+        },
+        {
+          "claim": "1977年创立绿带运动。",
+          "sourceUrls": [
+            "https://www.greenbeltmovement.org/history/"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 377
+    },
+    {
+      "slug": "sally-ride",
+      "sources": [
+        {
+          "title": "NASA Science：Sally Ride人物档案",
+          "url": "https://science.nasa.gov/people/sally-ride/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "宇航员、物理学家；1983年6月18日执行STS-7任务，成为首位进入太空的美国女性。",
+          "sourceUrls": [
+            "https://science.nasa.gov/people/sally-ride/"
+          ]
+        },
+        {
+          "claim": "宇航员、物理学家；1984年执行STS-41G航天飞机任务。",
+          "sourceUrls": [
+            "https://science.nasa.gov/people/sally-ride/"
+          ]
+        }
+      ],
+      "summaryLength": 128,
+      "storyLength": 412
+    }
+  ]
+}

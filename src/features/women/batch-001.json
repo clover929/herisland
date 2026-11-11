@@ -1,0 +1,36 @@
+{
+  "batch": "001",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "tu-youyou",
+    "katherine-johnson"
+  ],
+  "failures": [
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+      "outcome": "403 Forbidden",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/facts/",
+      "outcome": "403 Forbidden；仅搜索索引可见，未当作正文核验",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/",
+      "outcome": "403 Forbidden",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nasa.gov/people/katherine-johnson/",
+      "outcome": "404 Not Found；改用兰利传记",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "仅研究2人；总目录仍10人；不自动发布。",
+    "NASA两页分别记载26与13篇报告，未采用报告总数。",
+    "北京大学报道与国家科技奖励档案对古籍线索表述不同，未写入具体古籍名称。",
+    "未使用人物照片；保留HerSpace原创占位图，无第三方照片许可声明。"
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "batch": "006",
+  "previousBatch": "005",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "emmy-noether",
+    "lise-meitner",
+    "gerty-cori",
+    "kathrine-switzer",
+    "oprah-winfrey",
+    "zora-neale-hurston",
+    "augusta-savage",
+    "helen-keller",
+    "shirley-chisholm",
+    "ellen-macarthur"
+  ],
+  "reusedCandidates": [],
+  "newRecords": 10,
+  "failures": [
+    {
+      "url": "https://beckerexhibits.wustl.edu/legacy-exhibits/mig/bios/corig.html",
+      "outcome": "502 Bad Gateway；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://beckerexhibits.wustl.edu/s/mwhs/page/bios-cori",
+      "outcome": "502 Bad Gateway；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://library.syracuse.edu/digital/guides/s/switzer_k.htm",
+      "outcome": "人机验证阻挡，正文不可用；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://americanart.si.edu/press/2024/11/smithsonian-american-art-museum-names-dalila-scruggs-inaugural-augusta-savage-curator",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1947/cori-gt/biographical/",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "先读批次005，排除42位已核实人物；本批10位全部新增，十领域各1位。",
+    "所有人仅设verified，未发布、未精选；原有42条写入前后逐条比对保持不变。",
+    "斯威策为首位正式报名女性，不写成首位跑过波士顿马拉松的女性。",
+    "NLM科里传记含错误的首对科学诺奖夫妇断言，排除；晋升教授年份与馆藏搜索摘要不同，未采用。",
+    "赫斯顿学过人类学不等于该专业学位；不采用有差异的霍华德大学年份。",
+    "奇泽姆区分1968当选与1969履职，以及争取提名和正式候选人资格。",
+    "诺特不标为IAS正式教授；迈特纳区分实验鉴定与物理解释。",
+    "凯勒为教育与权利倡导者，不标学校教师；麦克阿瑟纪录仅指2005年当时。",
+    "来源中的图片未获明确许可，统一使用HerSpace原创占位图；机构自述不当作独立全面评价。"
+  ],
+  "evidence": [
+    {
+      "slug": "emmy-noether",
+      "sources": [
+        {
+          "title": "University of St Andrews MacTutor：Emmy Noether",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "IAS：Honoring the Legacy of Emmy Noether",
+          "url": "https://www.ias.edu/news/2023/honoring-legacy-emmy-noether",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1921年发表有关环中理想理论的论文。",
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/"
+          ]
+        },
+        {
+          "claim": "1933年前往布林莫尔学院，1934年开始在普林斯顿高等研究院讲学。",
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 357
+    },
+    {
+      "slug": "lise-meitner",
+      "sources": [
+        {
+          "title": "Max Planck Institute for Chemistry：核裂变的发现",
+          "url": "https://www.mpic.de/4469988/die-entdeckung-der-kernspaltung",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1938年夏天离开德国前往瑞典，继续与哈恩通信。",
+          "sourceUrls": [
+            "https://www.mpic.de/4469988/die-entdeckung-der-kernspaltung"
+          ]
+        },
+        {
+          "claim": "与奥托·弗里施共同解释核裂变，论文于1939年2月11日在《自然》发表。",
+          "sourceUrls": [
+            "https://www.mpic.de/4469988/die-entdeckung-der-kernspaltung"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 370
+    },
+    {
+      "slug": "gerty-cori",
+      "sources": [
+        {
+          "title": "WashU Medicine：医学院历史",
+          "url": "https://medicine.washu.edu/about/history/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "National Library of Medicine：Gerty Cori传记",
+          "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_gerty_cori.html?id=item-72",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1931年进入圣路易斯华盛顿大学医学院药理学部门。",
+          "sourceUrls": [
+            "https://medicine.washu.edu/about/history/"
+          ]
+        },
+        {
+          "claim": "1947年因糖原催化转化研究获得诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://medicine.washu.edu/about/history/"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 378
+    },
+    {
+      "slug": "kathrine-switzer",
+      "sources": [
+        {
+          "title": "Kathrine Switzer：官方完整传记",
+          "url": "https://kathrineswitzer.com/meet-kathrine/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1967年正式报名并完成波士顿马拉松。",
+          "sourceUrls": [
+            "https://kathrineswitzer.com/meet-kathrine/"
+          ]
+        },
+        {
+          "claim": "1974年赢得纽约城市马拉松冠军。",
+          "sourceUrls": [
+            "https://kathrineswitzer.com/meet-kathrine/"
+          ]
+        }
+      ],
+      "summaryLength": 131,
+      "storyLength": 376
+    },
+    {
+      "slug": "oprah-winfrey",
+      "sources": [
+        {
+          "title": "Academy of Motion Picture Arts and Sciences：Oprah Winfrey",
+          "url": "https://www.oscars.org/governors-awards/ceremonies/oprah-winfrey",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Harvard Business School：Oprah G. Winfrey",
+          "url": "https://www.hbs.edu/leadership/20th-century-leaders/details?profile=oprah_g_winfrey",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1986年《奥普拉·温弗瑞秀》开始向全美播出。",
+          "sourceUrls": [
+            "https://www.oscars.org/governors-awards/ceremonies/oprah-winfrey"
+          ]
+        },
+        {
+          "claim": "2007年在南非创办女子领导力学院。",
+          "sourceUrls": [
+            "https://www.oscars.org/governors-awards/ceremonies/oprah-winfrey"
+          ]
+        }
+      ],
+      "summaryLength": 136,
+      "storyLength": 397
+    },
+    {
+      "slug": "zora-neale-hurston",
+      "sources": [
+        {
+          "title": "American Academy of Arts and Sciences：Zora Neale Hurston",
+          "url": "https://www.amacad.org/person/zora-neale-hurston",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Barnard College：Zora Neale Hurston at Barnard",
+          "url": "https://barnard.edu/zora-neale-hurston-at-barnard",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1928年获得巴纳德学院学位。",
+          "sourceUrls": [
+            "https://www.amacad.org/person/zora-neale-hurston"
+          ]
+        },
+        {
+          "claim": "1937年出版小说《他们眼望上苍》。",
+          "sourceUrls": [
+            "https://www.amacad.org/person/zora-neale-hurston"
+          ]
+        }
+      ],
+      "summaryLength": 129,
+      "storyLength": 392
+    },
+    {
+      "slug": "augusta-savage",
+      "sources": [
+        {
+          "title": "Smithsonian American Art Museum：Augusta Savage",
+          "url": "https://americanart.si.edu/artist/augusta-savage-4269",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1929年获得罗森沃尔德资助赴巴黎学习。",
+          "sourceUrls": [
+            "https://americanart.si.edu/artist/augusta-savage-4269"
+          ]
+        },
+        {
+          "claim": "1937年担任哈莱姆社区艺术中心首任主任。",
+          "sourceUrls": [
+            "https://americanart.si.edu/artist/augusta-savage-4269"
+          ]
+        }
+      ],
+      "summaryLength": 133,
+      "storyLength": 384
+    },
+    {
+      "slug": "helen-keller",
+      "sources": [
+        {
+          "title": "American Foundation for the Blind：Helen Keller Biography",
+          "url": "https://www.afb.org/about-afb/history/helen-keller/biography-and-chronology/biography",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1904年以优等成绩取得拉德克利夫学院学士学位。",
+          "sourceUrls": [
+            "https://www.afb.org/about-afb/history/helen-keller/biography-and-chronology/biography"
+          ]
+        },
+        {
+          "claim": "1924年开始为美国盲人基金会工作，合作约四十年。",
+          "sourceUrls": [
+            "https://www.afb.org/about-afb/history/helen-keller/biography-and-chronology/biography"
+          ]
+        }
+      ],
+      "summaryLength": 133,
+      "storyLength": 390
+    },
+    {
+      "slug": "shirley-chisholm",
+      "sources": [
+        {
+          "title": "U.S. House of Representatives：Shirley Chisholm",
+          "url": "https://history.house.gov/People/Detail/10918",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1968年当选，成为首位进入美国国会的黑人女性。",
+          "sourceUrls": [
+            "https://history.house.gov/People/Detail/10918"
+          ]
+        },
+        {
+          "claim": "1972年竞逐民主党总统候选人提名，未获得提名。",
+          "sourceUrls": [
+            "https://history.house.gov/People/Detail/10918"
+          ]
+        }
+      ],
+      "summaryLength": 131,
+      "storyLength": 396
+    },
+    {
+      "slug": "ellen-macarthur",
+      "sources": [
+        {
+          "title": "Ellen MacArthur Foundation：Ellen的经历",
+          "url": "https://www.ellenmacarthurfoundation.org/about-us/ellens-story",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2005年完成单人环球航行，创下当时最快纪录。",
+          "sourceUrls": [
+            "https://www.ellenmacarthurfoundation.org/about-us/ellens-story"
+          ]
+        },
+        {
+          "claim": "2010年设立艾伦·麦克阿瑟基金会，推动循环经济。",
+          "sourceUrls": [
+            "https://www.ellenmacarthurfoundation.org/about-us/ellens-story"
+          ]
+        }
+      ],
+      "summaryLength": 128,
+      "storyLength": 388
+    }
+  ]
+}

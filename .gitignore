@@ -30,3 +30,15 @@ coverage/
 blob-report/
 playwright/.cache/
 *.log
+
+# Generated QA output and original image working files (kept locally)
+artifacts/
+.next-release/
+.vercel/
+supabase/.temp/
+supabase/.branches/
+supabase/backups/
+*.backup
+
+# Existing standalone previews stay local; deploy only the main application.
+/previews/

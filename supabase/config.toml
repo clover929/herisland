@@ -1,0 +1,6 @@
+# Minimal project configuration. Auth production settings must be configured in Dashboard.
+project_id = "herisland"
+[db]
+major_version = 17
+[db.seed]
+enabled = false

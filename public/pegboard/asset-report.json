@@ -1,0 +1,742 @@
+[
+  {
+    "id": "apron",
+    "width": 512,
+    "height": 573,
+    "anchorX": 0.5133026274875622,
+    "anchorY": 0.006980802792321117,
+    "transparent": true,
+    "bytes": 117396,
+    "sourceSha256": "d4417db9266ffb70364cf9800ec5f648c74496ae83566bd96bdf2682c9d94132"
+  },
+  {
+    "id": "badge-board",
+    "width": 512,
+    "height": 421,
+    "anchorX": 0.493028085443038,
+    "anchorY": 0.011876484560570071,
+    "transparent": true,
+    "bytes": 123068,
+    "sourceSha256": "2262b5f3bbb38d4f0786f397c0c0fb76ae41e2e3cda6913603b82b9385d69c28"
+  },
+  {
+    "id": "badminton-racket",
+    "width": 512,
+    "height": 352,
+    "anchorX": 0.2078314129422719,
+    "anchorY": 0.011363636363636364,
+    "transparent": true,
+    "bytes": 65088,
+    "sourceSha256": "e4eb5fe3e38826ad076f8227e4d8ebbbfba97f14ba915265a112e6452c043bad"
+  },
+  {
+    "id": "basketball",
+    "width": 512,
+    "height": 575,
+    "anchorX": 0.4962842987804878,
+    "anchorY": 0.01217391304347826,
+    "transparent": true,
+    "bytes": 129956,
+    "sourceSha256": "6febdc9a08c9fa96a8da62293c20845e022d0de36670c882b060ac39cfcf9782"
+  },
+  {
+    "id": "bicycle",
+    "width": 512,
+    "height": 387,
+    "anchorX": 0.7237863189799331,
+    "anchorY": 0.012919896640826873,
+    "transparent": true,
+    "bytes": 125416,
+    "sourceSha256": "bf64d03898f547a32956383aa3a183cba6d1583c30571de09e84295b99369a25"
+  },
+  {
+    "id": "blind-box",
+    "width": 463,
+    "height": 768,
+    "anchorX": 0.554120340872509,
+    "anchorY": 0.010416666666666666,
+    "transparent": true,
+    "bytes": 157628,
+    "sourceSha256": "713310591cbfada48f0953579dd3c55f98bc5b7ba0a519caf46e934775d5d181"
+  },
+  {
+    "id": "boxing-gloves",
+    "width": 512,
+    "height": 577,
+    "anchorX": 0.46055392917607224,
+    "anchorY": 0.010398613518197574,
+    "transparent": true,
+    "bytes": 116562,
+    "sourceSha256": "2d82bf4184163d708e12739ed95012686941b08ec7cdcd0d543811b19f6500ea"
+  },
+  {
+    "id": "bracelet",
+    "width": 512,
+    "height": 443,
+    "anchorX": 0.5160428983671171,
+    "anchorY": 0.013544018058690745,
+    "transparent": true,
+    "bytes": 104728,
+    "sourceSha256": "3b956e1c8ae29286d06ef90643ac3a635a75b2d213c7af0f8a2a3480a2dc550c"
+  },
+  {
+    "id": "brick-model",
+    "width": 512,
+    "height": 441,
+    "anchorX": 0.4297854828595318,
+    "anchorY": 0.011337868480725623,
+    "transparent": true,
+    "bytes": 153376,
+    "sourceSha256": "a21a83d5ca39da02914c9d77fb0f96bda79521921ea1693ba9e306d9a2303db8"
+  },
+  {
+    "id": "brushes",
+    "width": 512,
+    "height": 534,
+    "anchorX": 0.5254446138211382,
+    "anchorY": 0.011235955056179775,
+    "transparent": true,
+    "bytes": 115450,
+    "sourceSha256": "ea1b25756d11305627aff4642fd06c10e1c0b07a4a33692685e235c4d9ca9ff2"
+  },
+  {
+    "id": "camera-strap",
+    "width": 512,
+    "height": 407,
+    "anchorX": 0.7633036247016707,
+    "anchorY": 0.012285012285012284,
+    "transparent": true,
+    "bytes": 83676,
+    "sourceSha256": "9c80419f8cccda517559866acb9c11ec7a30fd5b2849b3b15ae1693341651784"
+  },
+  {
+    "id": "climbing-shoes",
+    "width": 512,
+    "height": 438,
+    "anchorX": 0.4139184170081967,
+    "anchorY": 0.01141552511415525,
+    "transparent": true,
+    "bytes": 94354,
+    "sourceSha256": "c8b90dbe7a2a0dfd80f0c05f4cd74d85f65103f3e5d820f340597398543f3b88"
+  },
+  {
+    "id": "controller",
+    "width": 512,
+    "height": 374,
+    "anchorX": 0.28614783653846154,
+    "anchorY": 0.013368983957219251,
+    "transparent": true,
+    "bytes": 102688,
+    "sourceSha256": "5c48aca6cf9661e3958b6651d008f92989b3532a3f7d99e166389711a9636754"
+  },
+  {
+    "id": "cookie-cutters",
+    "width": 512,
+    "height": 487,
+    "anchorX": 0.6796925208868895,
+    "anchorY": 0.012320328542094456,
+    "transparent": true,
+    "bytes": 106022,
+    "sourceSha256": "76be6f3833e57fa0bef9a7ae36bbdcaa4545cbf0dac8bfb7e4e00fc306bac125"
+  },
+  {
+    "id": "cycling-helmet",
+    "width": 512,
+    "height": 565,
+    "anchorX": 0.4732112216884008,
+    "anchorY": 0.010619469026548672,
+    "transparent": true,
+    "bytes": 108442,
+    "sourceSha256": "591c5429874383d23cde3a283753a7175db8d0892ab6fc678cf5efe37a597336"
+  },
+  {
+    "id": "digital-camera",
+    "width": 512,
+    "height": 393,
+    "anchorX": 0.6672079396802325,
+    "anchorY": 0.01272264631043257,
+    "transparent": true,
+    "bytes": 96106,
+    "sourceSha256": "497ff63efef0f32fd6a5f64c093f33ce644e98afefce7d061f988bbe22220b36"
+  },
+  {
+    "id": "dumbbells",
+    "width": 512,
+    "height": 414,
+    "anchorX": 0.5837390075376885,
+    "anchorY": 0.012077294685990338,
+    "transparent": true,
+    "bytes": 78718,
+    "sourceSha256": "ba0fea6480b1e385804f6608b40d0e769a613b094581b0a334fe5d16829b3573"
+  },
+  {
+    "id": "easel",
+    "width": 512,
+    "height": 742,
+    "anchorX": 0.6094978787251656,
+    "anchorY": 0.01078167115902965,
+    "transparent": true,
+    "bytes": 170882,
+    "sourceSha256": "f56e425c5fcf8efbc81a9dcbbddd08adb676abd9f975862e9d7ecf6dc6be3436"
+  },
+  {
+    "id": "electronics",
+    "width": 512,
+    "height": 513,
+    "anchorX": 0.6932989301257253,
+    "anchorY": 0.01364522417153996,
+    "transparent": true,
+    "bytes": 105960,
+    "sourceSha256": "93ab96effb0499e97ceab4c7a0e891d6ea256a04cdae65e99e3406cc72d2b78e"
+  },
+  {
+    "id": "embroidery",
+    "width": 512,
+    "height": 588,
+    "anchorX": 0.5827079551348547,
+    "anchorY": 0.011904761904761904,
+    "transparent": true,
+    "bytes": 155642,
+    "sourceSha256": "394e049204a34f435c5f8e5d0b213d088562409bddf945bdcc56720e6305bcd7"
+  },
+  {
+    "id": "figurine",
+    "width": 512,
+    "height": 540,
+    "anchorX": 0.41383837090163933,
+    "anchorY": 0.0,
+    "transparent": true,
+    "bytes": 154894,
+    "sourceSha256": "c32cf7149e03f743ba9f7f606140efd47d62eac5517bf46b07b0f2a061032537"
+  },
+  {
+    "id": "film-camera",
+    "width": 512,
+    "height": 387,
+    "anchorX": 0.5793855274822695,
+    "anchorY": 0.012919896640826873,
+    "transparent": true,
+    "bytes": 97402,
+    "sourceSha256": "ee8c87e33aae4697963ca99eeac12e2eaed38e89f87b09d22cbf3eb8602098b4"
+  },
+  {
+    "id": "film-canister",
+    "width": 512,
+    "height": 705,
+    "anchorX": 0.36457877262113253,
+    "anchorY": 0.011347517730496455,
+    "transparent": true,
+    "bytes": 180916,
+    "sourceSha256": "884aec2db15f39fdda8b05482c54458e1af950626808fa11f540bbcd9762eac6"
+  },
+  {
+    "id": "flowers",
+    "width": 512,
+    "height": 573,
+    "anchorX": 0.40364097481343286,
+    "anchorY": 0.010471204188481676,
+    "transparent": true,
+    "bytes": 139364,
+    "sourceSha256": "58b684516e9826dbdaacf333c3ea3e205a1a1544884048708d34a5d4b3fb3a3f"
+  },
+  {
+    "id": "football",
+    "width": 512,
+    "height": 596,
+    "anchorX": 0.5041413892024078,
+    "anchorY": 0.01174496644295302,
+    "transparent": true,
+    "bytes": 137068,
+    "sourceSha256": "75884d21593f2fcee7584ebfe079eb31ce1827c25e53b7027fd64e16c23f65f6"
+  },
+  {
+    "id": "game-cartridge",
+    "width": 512,
+    "height": 378,
+    "anchorX": 0.7024477066532258,
+    "anchorY": 0.013227513227513227,
+    "transparent": true,
+    "bytes": 89944,
+    "sourceSha256": "a5a1cf179a70a8b9c228f44a0583a762e9afb9bc844b33ae17d107d5c755973b"
+  },
+  {
+    "id": "gaming-headset",
+    "width": 512,
+    "height": 578,
+    "anchorX": 0.5093712765381283,
+    "anchorY": 0.006920415224913495,
+    "transparent": true,
+    "bytes": 135796,
+    "sourceSha256": "ccb5c2d7fda04ab8c7b408f56a912f907a543ea644d5d12511ec23591b0774c5"
+  },
+  {
+    "id": "golf-clubs",
+    "width": 351,
+    "height": 768,
+    "anchorX": 0.4045073893558742,
+    "anchorY": 0.009114583333333334,
+    "transparent": true,
+    "bytes": 123008,
+    "sourceSha256": "3f1e28c9a39fa1420efae45c152caf77b7c5802ee63d447193cb3ca5a8265f72"
+  },
+  {
+    "id": "guitar",
+    "width": 402,
+    "height": 768,
+    "anchorX": 0.8414340725749783,
+    "anchorY": 0.005208333333333333,
+    "transparent": true,
+    "bytes": 105450,
+    "sourceSha256": "ae767e6209c2857d67edf5f6ce2fb9b58683d9ddd1963a82f4036909de41f2b0"
+  },
+  {
+    "id": "hand-drum",
+    "width": 512,
+    "height": 532,
+    "anchorX": 0.49581269054878047,
+    "anchorY": 0.011278195488721804,
+    "transparent": true,
+    "bytes": 117574,
+    "sourceSha256": "06791e124e13532301f56df69803742bfa14fd0f831a3357afe0930d6d3d98eb"
+  },
+  {
+    "id": "handheld-console",
+    "width": 512,
+    "height": 308,
+    "anchorX": 0.18863736194779115,
+    "anchorY": 0.016233766233766232,
+    "transparent": true,
+    "bytes": 79790,
+    "sourceSha256": "12cbe698ab736e6aee101d55446f8fce68ddff5ad7877e382f2a3c04d2dfc91b"
+  },
+  {
+    "id": "hanging-vine",
+    "width": 512,
+    "height": 661,
+    "anchorX": 0.500692921539961,
+    "anchorY": 0.01059001512859304,
+    "transparent": true,
+    "bytes": 164606,
+    "sourceSha256": "70a37783c8c8e7e71093bc28e3d452963efdea12331d25579ab4298fb378d4aa"
+  },
+  {
+    "id": "headphones",
+    "width": 512,
+    "height": 563,
+    "anchorX": 0.5274666836103253,
+    "anchorY": 0.010657193605683837,
+    "transparent": true,
+    "bytes": 137694,
+    "sourceSha256": "7b6be6f2c4f241aef00f5ab88a46b327bf156df26eddbae3588f9ccabd15d68d"
+  },
+  {
+    "id": "instant-camera",
+    "width": 512,
+    "height": 494,
+    "anchorX": 0.29915945870535715,
+    "anchorY": 0.012145748987854251,
+    "transparent": true,
+    "bytes": 116692,
+    "sourceSha256": "c988f7ec1aa92d4ba34f895fe00c55c7b022a9166ee98f8184b3d90e14bd5075"
+  },
+  {
+    "id": "kalimba",
+    "width": 512,
+    "height": 526,
+    "anchorX": 0.6416064996208292,
+    "anchorY": 0.011406844106463879,
+    "transparent": true,
+    "bytes": 124146,
+    "sourceSha256": "d27a7b1a400cfe5aad9fbfd243b8c10099750b44f46e5caa579e008d4fe63819"
+  },
+  {
+    "id": "keyboard-piano",
+    "width": 512,
+    "height": 368,
+    "anchorX": 0.48333955951143454,
+    "anchorY": 0.01358695652173913,
+    "transparent": true,
+    "bytes": 74986,
+    "sourceSha256": "cf82fa3560dd13107450a66f5964d59d93d245a58eeaf42a9082c77fdbc221d0"
+  },
+  {
+    "id": "keychain",
+    "width": 512,
+    "height": 593,
+    "anchorX": 0.4832369586614173,
+    "anchorY": 0.01011804384485666,
+    "transparent": true,
+    "bytes": 127858,
+    "sourceSha256": "18c4ebb7d36dc04f41cd360a2a69afd03d295aa17166bf1c71a5ec209b03f268"
+  },
+  {
+    "id": "knitting",
+    "width": 512,
+    "height": 464,
+    "anchorX": 0.33492626664201186,
+    "anchorY": 0.01293103448275862,
+    "transparent": true,
+    "bytes": 123096,
+    "sourceSha256": "206f452cbcc9f9818c8f54d1c38073a73905e37e715a870e053d4dc09a2b819b"
+  },
+  {
+    "id": "lens",
+    "width": 512,
+    "height": 438,
+    "anchorX": 0.6213404605263158,
+    "anchorY": 0.01141552511415525,
+    "transparent": true,
+    "bytes": 103962,
+    "sourceSha256": "35c45be0de181cd929e5875fa41d42c2a96d24d37f3f763b22cc12f5367a0e6c"
+  },
+  {
+    "id": "measuring-spoons",
+    "width": 512,
+    "height": 501,
+    "anchorX": 0.6005512373096447,
+    "anchorY": 0.011976047904191617,
+    "transparent": true,
+    "bytes": 89462,
+    "sourceSha256": "30c64c526dc41fed147705965309fc166030356ba8f9958f71095735e3df2fca"
+  },
+  {
+    "id": "mechanical-keyboard",
+    "width": 512,
+    "height": 308,
+    "anchorX": 0.7862132352941177,
+    "anchorY": 0.016233766233766232,
+    "transparent": true,
+    "bytes": 73556,
+    "sourceSha256": "a71c3025310b8bf2e678c7427fd1c05a975c07470ad7170157b3738442564dac"
+  },
+  {
+    "id": "model-car",
+    "width": 512,
+    "height": 448,
+    "anchorX": 0.6397609781598513,
+    "anchorY": 0.013392857142857142,
+    "transparent": true,
+    "bytes": 99316,
+    "sourceSha256": "2b9b470f33eb84cb57121a11506b2c3a847ac262cc3dcb23d56227be7b24c750"
+  },
+  {
+    "id": "mona-lisa",
+    "width": 512,
+    "height": 689,
+    "anchorX": 0.49995490119893427,
+    "anchorY": 0.008708272859216255,
+    "transparent": true,
+    "bytes": 193586,
+    "sourceSha256": "316ec96f0f78404df5bbf8ee143cd4095933a9f6e9112c8f9c566e60033555a6"
+  },
+  {
+    "id": "oven-mitts",
+    "width": 512,
+    "height": 458,
+    "anchorX": 0.5245353349673203,
+    "anchorY": 0.010917030567685589,
+    "transparent": true,
+    "bytes": 96056,
+    "sourceSha256": "382f6c66827c2ba4d8a6b634a37cff9c7bb07d04e3a4f7cf6889206f933782b5"
+  },
+  {
+    "id": "palette",
+    "width": 512,
+    "height": 458,
+    "anchorX": 0.6992740271226415,
+    "anchorY": 0.013100436681222707,
+    "transparent": true,
+    "bytes": 111854,
+    "sourceSha256": "8edc16387261a1c62855ec182dd81ec614d3bf7a0da14c95f47b9b4852d548ef"
+  },
+  {
+    "id": "photos",
+    "width": 512,
+    "height": 622,
+    "anchorX": 0.5701900268151815,
+    "anchorY": 0.011254019292604502,
+    "transparent": true,
+    "bytes": 166212,
+    "sourceSha256": "a261eb91f4ad9c77d448efb4e349e67b7a04cea64863cf0e3f85da55e78ca2db"
+  },
+  {
+    "id": "piping-bag",
+    "width": 512,
+    "height": 501,
+    "anchorX": 0.6558425845448799,
+    "anchorY": 0.011976047904191617,
+    "transparent": true,
+    "bytes": 68630,
+    "sourceSha256": "efd9e882dbb131c9369ad4a5406a9b7d552f39d70de127566d6b85e5a66e55c0"
+  },
+  {
+    "id": "pixel-sign",
+    "width": 512,
+    "height": 453,
+    "anchorX": 0.49273264209796674,
+    "anchorY": 0.013245033112582781,
+    "transparent": true,
+    "bytes": 105578,
+    "sourceSha256": "876ea9ee2131a0a9263817eb6e9272b90cd75883840387c3ab0081f2fd4955de"
+  },
+  {
+    "id": "plant",
+    "width": 512,
+    "height": 512,
+    "anchorX": 0.5363285459321121,
+    "anchorY": 0.01171875,
+    "transparent": true,
+    "bytes": 138618,
+    "sourceSha256": "97d0ab647db61d2d77d8541d634a06ad1391edb85118ce5a1e272e77df750795"
+  },
+  {
+    "id": "plush",
+    "width": 512,
+    "height": 606,
+    "anchorX": 0.5264897790350128,
+    "anchorY": 0.01155115511551155,
+    "transparent": true,
+    "bytes": 140714,
+    "sourceSha256": "e79a7e247dc96df30b5a8595a2d456dd5096e9fe022e253af440811557978bef"
+  },
+  {
+    "id": "postcard",
+    "width": 512,
+    "height": 381,
+    "anchorX": 0.8672044836956522,
+    "anchorY": 0.013123359580052493,
+    "transparent": true,
+    "bytes": 116558,
+    "sourceSha256": "2330acf9477f9750b68630c9004c6cd805dea1b6a9dcde1731f2355659c6ab4d"
+  },
+  {
+    "id": "pottery",
+    "width": 512,
+    "height": 561,
+    "anchorX": 0.5030431313528557,
+    "anchorY": 0.0106951871657754,
+    "transparent": true,
+    "bytes": 142410,
+    "sourceSha256": "5eb5a4b7076e55f9b6ab4d721dc07fafe992354a90d3ad7501f55d1fdd73c592"
+  },
+  {
+    "id": "recipe-book",
+    "width": 512,
+    "height": 580,
+    "anchorX": 0.49373357518281535,
+    "anchorY": 0.01206896551724138,
+    "transparent": true,
+    "bytes": 161272,
+    "sourceSha256": "06bb05ce1d093d7b2fcd90ff4e4d0db8db9300e1e8f25dacb45a85b5a209ff7b"
+  },
+  {
+    "id": "robot",
+    "width": 512,
+    "height": 701,
+    "anchorX": 0.7797519041218638,
+    "anchorY": 0.011412268188302425,
+    "transparent": true,
+    "bytes": 157690,
+    "sourceSha256": "aa7bb3e4546bd1f7a9a697840958bd94f7929efd0da6cbcb245c6e967e07165c"
+  },
+  {
+    "id": "rolling-pin",
+    "width": 512,
+    "height": 218,
+    "anchorX": 0.9335065569196429,
+    "anchorY": 0.01834862385321101,
+    "transparent": true,
+    "bytes": 37476,
+    "sourceSha256": "ae7c008832bf5790043d43f2b3e7d21b7ef0f0a2ff50e9fc548006ab9eff73fc"
+  },
+  {
+    "id": "sailboat",
+    "width": 512,
+    "height": 556,
+    "anchorX": 0.5568647540983607,
+    "anchorY": 0.007194244604316547,
+    "transparent": true,
+    "bytes": 117794,
+    "sourceSha256": "6644f722d36247e71e0355475f8e6c5903f1992df7c956fc10990ded6381dcc1"
+  },
+  {
+    "id": "scissors",
+    "width": 512,
+    "height": 411,
+    "anchorX": 0.6503504234562607,
+    "anchorY": 0.014598540145985401,
+    "transparent": true,
+    "bytes": 60726,
+    "sourceSha256": "96cc37d887ba989e86b03a37a0af64c3bfc0d90ef87c2056ba16febca4ae135e"
+  },
+  {
+    "id": "skateboard",
+    "width": 512,
+    "height": 295,
+    "anchorX": 0.863849814690027,
+    "anchorY": 0.01694915254237288,
+    "transparent": true,
+    "bytes": 52278,
+    "sourceSha256": "5f5b925b2141478745e65100b2a536c8beb7734c68cd0e1ae5238375ec9f99ae"
+  },
+  {
+    "id": "skis",
+    "width": 512,
+    "height": 382,
+    "anchorX": 0.8074079241071429,
+    "anchorY": 0.013089005235602094,
+    "transparent": true,
+    "bytes": 94964,
+    "sourceSha256": "8e526ae28ea5f30307a9794a51c72e4394ba79194003791c53be019bbe12b5a4"
+  },
+  {
+    "id": "succulent",
+    "width": 512,
+    "height": 607,
+    "anchorX": 0.6129382621951219,
+    "anchorY": 0.011532125205930808,
+    "transparent": true,
+    "bytes": 155258,
+    "sourceSha256": "9ad192ef45542c8e08319672afe2ecfadd75e6a5d41937aeb28b447178ceaaf3"
+  },
+  {
+    "id": "surfboard",
+    "width": 448,
+    "height": 768,
+    "anchorX": 0.8788099224064626,
+    "anchorY": 0.0078125,
+    "transparent": true,
+    "bytes": 107912,
+    "sourceSha256": "ba4a45d8665f10007b7ac788d6d2c3612367b7598a5ef7738d1ba8aa1a9f0658"
+  },
+  {
+    "id": "swim-goggles",
+    "width": 512,
+    "height": 284,
+    "anchorX": 0.6092878312412832,
+    "anchorY": 0.017605633802816902,
+    "transparent": true,
+    "bytes": 67522,
+    "sourceSha256": "c20caebaab40ea45dbc8d61ceb32869023a3b654f64f800399455f9982699c57"
+  },
+  {
+    "id": "tennis-racket",
+    "width": 336,
+    "height": 768,
+    "anchorX": 0.5322054052567909,
+    "anchorY": 0.009114583333333334,
+    "transparent": true,
+    "bytes": 134242,
+    "sourceSha256": "5d2d088038f96b97ddd9995feeee974d57869cb3221e6efd9d7682a591d54858"
+  },
+  {
+    "id": "tripod",
+    "width": 512,
+    "height": 611,
+    "anchorX": 0.5194839424740484,
+    "anchorY": 0.011456628477905073,
+    "transparent": true,
+    "bytes": 83284,
+    "sourceSha256": "26a4c737485eeb9a47aae74295cadacece6f900bdc9f6e33eb27ec4938b9e833"
+  },
+  {
+    "id": "trowel",
+    "width": 512,
+    "height": 444,
+    "anchorX": 0.8967848557692307,
+    "anchorY": 0.013513513513513514,
+    "transparent": true,
+    "bytes": 59644,
+    "sourceSha256": "f9693105bd0214f3a75a36f8724a7924beb1fdf95eddcbb5b7482bce9a60a0b1"
+  },
+  {
+    "id": "ukulele",
+    "width": 512,
+    "height": 599,
+    "anchorX": 0.8623404328330894,
+    "anchorY": 0.01001669449081803,
+    "transparent": true,
+    "bytes": 75778,
+    "sourceSha256": "6534d24ae0915e62f452819338c366c224ce6bc56edeed79f900e87364907014"
+  },
+  {
+    "id": "vinyl",
+    "width": 512,
+    "height": 514,
+    "anchorX": 0.518219239065008,
+    "anchorY": 0.013618677042801557,
+    "transparent": true,
+    "bytes": 103598,
+    "sourceSha256": "d812bc25585cbb4854a1c51629da5727f839762a58a05ced7242a0216e2d6107"
+  },
+  {
+    "id": "violin",
+    "width": 512,
+    "height": 711,
+    "anchorX": 0.7665608723958334,
+    "anchorY": 0.009845288326300985,
+    "transparent": true,
+    "bytes": 125554,
+    "sourceSha256": "7b576d56a5dcc92bc9a4115672f5ccef8cb406ba1e6132133102b644b1dc9fcc"
+  },
+  {
+    "id": "volleyball",
+    "width": 512,
+    "height": 593,
+    "anchorX": 0.514890187937063,
+    "anchorY": 0.011804384485666104,
+    "transparent": true,
+    "bytes": 107492,
+    "sourceSha256": "0fe7d190252e9be4b43c0b29fd3b218f45ef889e43e3f64ee0a4fae170f8900f"
+  },
+  {
+    "id": "washi",
+    "width": 512,
+    "height": 410,
+    "anchorX": 0.4998629147845726,
+    "anchorY": 0.014634146341463415,
+    "transparent": true,
+    "bytes": 134598,
+    "sourceSha256": "a98aea9f5c249278c1e792bb3172f1aac536d6b02f005836d546864dbff66f33"
+  },
+  {
+    "id": "watering-can",
+    "width": 512,
+    "height": 391,
+    "anchorX": 0.5979706849845201,
+    "anchorY": 0.01278772378516624,
+    "transparent": true,
+    "bytes": 77384,
+    "sourceSha256": "3b60d83a2f852e26de0cd763ff67c7da0e0c10da0a699791de1c3ab76016c607"
+  },
+  {
+    "id": "whisk",
+    "width": 512,
+    "height": 443,
+    "anchorX": 0.935459940652819,
+    "anchorY": 0.013544018058690745,
+    "transparent": true,
+    "bytes": 73860,
+    "sourceSha256": "f1cf190ac57478ee2fa6cebd319b5ef2950c242ffc120bc3633a9ed8d823ad9b"
+  },
+  {
+    "id": "yarn-crochet",
+    "width": 512,
+    "height": 468,
+    "anchorX": 0.4268403970665962,
+    "anchorY": 0.01282051282051282,
+    "transparent": true,
+    "bytes": 124136,
+    "sourceSha256": "490a1b478cef96bcb38a640386de49e93cd3f96a07b831aee2fcce8d1bb17580"
+  },
+  {
+    "id": "yoga-mat",
+    "width": 512,
+    "height": 305,
+    "anchorX": 0.4932653114548495,
+    "anchorY": 0.01639344262295082,
+    "transparent": true,
+    "bytes": 68994,
+    "sourceSha256": "2808a2316644d9de930133a9774b150f42a7be21f4cfaa3d84ff7974e96793ca"
+  }
+]

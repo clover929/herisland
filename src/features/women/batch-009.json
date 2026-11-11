@@ -1,0 +1,343 @@
+{
+  "batch": "009",
+  "previousBatch": "008",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "karen-uhlenbeck",
+    "cecilia-payne-gaposchkin",
+    "francoise-barre-sinoussi",
+    "simone-biles",
+    "indra-nooyi",
+    "wislawa-szymborska",
+    "zaha-hadid",
+    "umeko-tsuda",
+    "jeannette-rankin",
+    "wang-yaping"
+  ],
+  "reusedCandidates": [],
+  "newRecords": 10,
+  "failures": [
+    {
+      "url": "https://usagym.org/biles-wins-11th-olympic-medal-chiles-clinches-floor-exercise-bronze/",
+      "outcome": "403 Forbidden；改用官方运动员履历；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://hollisarchives.lib.harvard.edu/catalog/hua03004",
+      "outcome": "403 Forbidden；改用哈佛院系正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "先读批次008，排除原有72位；本批10位全部新增，十领域各1位，原有72条写入前后逐条比对未变。",
+    "全部仅设verified，未发布、未精选；第三方图像未取得明确许可，统一HerSpace原创占位图。",
+    "乌伦贝克依据阿贝尔奖主页及传记PDF，1990大会报告事实单独映射PDF；不扩大物理应用与个人心理叙述。",
+    "佩恩区分拉德克利夫授予博士与哈佛天文台研究，采用2026院系正文核实1956晋升；不将旧档案列表误当已读正文。",
+    "巴雷-西努西保留第一作者、合作发现与2008获奖，旧官网现任协会主席/实验室负责人不当作现状，疫苗研究不等于有效疫苗已完成。",
+    "拜尔斯采用官方运动员页历史成绩，不使用403新闻及邻近其他运动员有争议奖牌；累计总数不延伸为未来不变结论。",
+    "努伊区分2018年10月3日卸任CEO、2019年2月1日卸任董事长；未采用个人网站搜索摘要将CEO任期写到2019的口径，经营目标不作成效结论。",
+    "辛波丝卡同页短传与年表克拉科夫定居年份不同、编辑职务时段不同，不强行统一；就读不写成获学位，不复制诗歌。",
+    "哈迪德采用奖项机构官方资料，不使用事务所建立年份差异；竞赛获选、在建和已建分开，获奖事实与作品事实均由公告支持。",
+    "津田梅子区分创办女子英学塾与后续大学学制，1905制度事项不归为全部个人成果；2019纸币公告未核实现时流通，不采用为已发生。",
+    "兰金两届任期不连续，区分选举、法定任期和宣誓，首位女性议员不等于当时所有女性已享有投票权。",
+    "王亚平简介页面路径含2020但正文发布为2015，采用历史任务不采用现任军衔；北京时间11月7日出舱、8日返回，6.5小时为任务整体活动时长。",
+    "一次检索连接层Transport send error，重试哈佛FAS页面成功；同次未返回的Pepsi英文别名请求未作为证据。"
+  ],
+  "evidence": [
+    {
+      "slug": "karen-uhlenbeck",
+      "sources": [
+        {
+          "title": "The Abel Prize：2019年得主Karen Keskulla Uhlenbeck",
+          "url": "https://abelprize.no/abel-prize-laureates/2019",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "The Abel Prize：Karen Uhlenbeck官方传记",
+          "url": "https://abelprize.no/sites/default/files/2021-04/biography_English_Karen_Uhlenbeck_2019_abel.pdf",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2019年获得阿贝尔奖，获奖工作涉及几何偏微分方程、规范理论与可积系统。",
+          "sourceUrls": [
+            "https://abelprize.no/abel-prize-laureates/2019"
+          ]
+        },
+        {
+          "claim": "1990年在京都国际数学家大会作大会报告。",
+          "sourceUrls": [
+            "https://abelprize.no/sites/default/files/2021-04/biography_English_Karen_Uhlenbeck_2019_abel.pdf"
+          ]
+        }
+      ],
+      "summaryLength": 139,
+      "storyLength": 410
+    },
+    {
+      "slug": "cecilia-payne-gaposchkin",
+      "sources": [
+        {
+          "title": "Harvard FAS：Cecilia Payne-Gaposchkin研究与生涯，2026年6月",
+          "url": "https://current.fas.harvard.edu/stories/harvard-astronomer-our-heroine-20th-century-memorialized-london",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Harvard Department of Astronomy：天文台历史",
+          "url": "https://astronomy.fas.harvard.edu/history",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1925年获得拉德克利夫学院博士学位。",
+          "sourceUrls": [
+            "https://current.fas.harvard.edu/stories/harvard-astronomer-our-heroine-20th-century-memorialized-london"
+          ]
+        },
+        {
+          "claim": "1956年晋升哈佛正教授，随后担任天文学系负责人。",
+          "sourceUrls": [
+            "https://current.fas.harvard.edu/stories/harvard-astronomer-our-heroine-20th-century-memorialized-london"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 378
+    },
+    {
+      "slug": "francoise-barre-sinoussi",
+      "sources": [
+        {
+          "title": "Institut Pasteur：Françoise Barré-Sinoussi官方人物档案",
+          "url": "https://www.pasteur.fr/en/about-us/francoise-barre-sinoussi",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "是1983年报告后来命名为HIV的逆转录病毒发现论文的第一作者。",
+          "sourceUrls": [
+            "https://www.pasteur.fr/en/about-us/francoise-barre-sinoussi"
+          ]
+        },
+        {
+          "claim": "2008年因HIV发现相关工作获得诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://www.pasteur.fr/en/about-us/francoise-barre-sinoussi"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 389
+    },
+    {
+      "slug": "simone-biles",
+      "sources": [
+        {
+          "title": "USA Gymnastics：Simone Biles官方运动员履历",
+          "url": "https://members.usagym.org/pages/athletes/athleteListDetailPrint2.html?id=164887",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2013年获得世界锦标赛女子全能和自由体操冠军。",
+          "sourceUrls": [
+            "https://members.usagym.org/pages/athletes/athleteListDetailPrint2.html?id=164887"
+          ]
+        },
+        {
+          "claim": "2024年巴黎奥运会获团体、全能、跳马金牌及自由体操银牌。",
+          "sourceUrls": [
+            "https://members.usagym.org/pages/athletes/athleteListDetailPrint2.html?id=164887"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 384
+    },
+    {
+      "slug": "indra-nooyi",
+      "sources": [
+        {
+          "title": "PepsiCo：2019年董事长交接公告",
+          "url": "https://www.pepsico.com/newsroom/press-releases/2019/pepsico-elects-ceo-ramon-laguarta-as-chairman-of-the-board",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "PepsiCo：2018年CEO交接公告",
+          "url": "https://www.pepsico.com/newsroom/press-releases/2018/ramon-laguarta-elected-chief-executive-officer-of-pepsico",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1994年进入百事公司，2001年担任总裁和首席财务官并进入董事会。",
+          "sourceUrls": [
+            "https://www.pepsico.com/newsroom/press-releases/2019/pepsico-elects-ceo-ramon-laguarta-as-chairman-of-the-board"
+          ]
+        },
+        {
+          "claim": "2018年10月3日卸任百事CEO，2019年2月1日卸任董事长。",
+          "sourceUrls": [
+            "https://www.pepsico.com/newsroom/press-releases/2019/pepsico-elects-ceo-ramon-laguarta-as-chairman-of-the-board"
+          ]
+        }
+      ],
+      "summaryLength": 140,
+      "storyLength": 398
+    },
+    {
+      "slug": "wislawa-szymborska",
+      "sources": [
+        {
+          "title": "The Wisława Szymborska Foundation：官方生平与时间线",
+          "url": "https://www.szymborska.org.pl/en/wislawa/chronology/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1952年出版首部诗集。",
+          "sourceUrls": [
+            "https://www.szymborska.org.pl/en/wislawa/chronology/"
+          ]
+        },
+        {
+          "claim": "1996年获得诺贝尔文学奖。",
+          "sourceUrls": [
+            "https://www.szymborska.org.pl/en/wislawa/chronology/"
+          ]
+        }
+      ],
+      "summaryLength": 132,
+      "storyLength": 378
+    },
+    {
+      "slug": "zaha-hadid",
+      "sources": [
+        {
+          "title": "The Pritzker Architecture Prize：Zaha Hadid官方获奖公告",
+          "url": "https://www.pritzkerprize.com/announcement-zaha-hadid",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "The Pritzker Architecture Prize：Zaha Hadid传记",
+          "url": "https://www.pritzkerprize.com/biography-zaha-hadid",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2004年成为首位获得普利兹克建筑奖的女性。",
+          "sourceUrls": [
+            "https://www.pritzkerprize.com/announcement-zaha-hadid"
+          ]
+        },
+        {
+          "claim": "已完成作品包括德国维特拉消防站、因斯布鲁克跳台及辛辛那提当代艺术中心。",
+          "sourceUrls": [
+            "https://www.pritzkerprize.com/announcement-zaha-hadid"
+          ]
+        }
+      ],
+      "summaryLength": 139,
+      "storyLength": 385
+    },
+    {
+      "slug": "umeko-tsuda",
+      "sources": [
+        {
+          "title": "Tsuda University：学校简介与创办人历史",
+          "url": "https://www.tsuda.ac.jp/en/profile.html",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Tsuda University：津田梅子生平资料与纸币设计公告",
+          "url": "https://www.tsuda.ac.jp/en/20190612.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1871年入选五名赴美女子留学生，1882年返回日本。",
+          "sourceUrls": [
+            "https://www.tsuda.ac.jp/en/profile.html"
+          ]
+        },
+        {
+          "claim": "1900年在东京创办女子英学塾，首批招收10名学生。",
+          "sourceUrls": [
+            "https://www.tsuda.ac.jp/en/profile.html"
+          ]
+        }
+      ],
+      "summaryLength": 139,
+      "storyLength": 382
+    },
+    {
+      "slug": "jeannette-rankin",
+      "sources": [
+        {
+          "title": "U.S. House of Representatives：Jeannette Rankin官方档案",
+          "url": "https://history.house.gov/People/Detail/20147",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1916年成为首位当选美国国会议员的女性。",
+          "sourceUrls": [
+            "https://history.house.gov/People/Detail/20147"
+          ]
+        },
+        {
+          "claim": "先后于1917至1919年、1941至1943年担任众议员，两届任期不连续。",
+          "sourceUrls": [
+            "https://history.house.gov/People/Detail/20147"
+          ]
+        }
+      ],
+      "summaryLength": 138,
+      "storyLength": 381
+    },
+    {
+      "slug": "wang-yaping",
+      "sources": [
+        {
+          "title": "中国载人航天工程办公室：航天员王亚平历史简介",
+          "url": "https://www.cmse.gov.cn/hty/htyfc/202003/t20200306_41246.html",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "中国载人航天工程办公室：神舟十三号乘组成功出舱",
+          "url": "https://www.cmse.gov.cn/xwzx/zhxw/202111/t20211108_49032.html",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "中国载人航天工程办公室：神舟十三号首次出舱任务完成",
+          "url": "https://www.cmse.gov.cn/xwzx/zhxw/202111/t20211108_49033.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2013年入选并完成天宫一号与神舟十号载人飞行任务。",
+          "sourceUrls": [
+            "https://www.cmse.gov.cn/hty/htyfc/202003/t20200306_41246.html"
+          ]
+        },
+        {
+          "claim": "2021年11月7日成为中国首位进行出舱活动的女航天员。",
+          "sourceUrls": [
+            "https://www.cmse.gov.cn/xwzx/zhxw/202111/t20211108_49032.html"
+          ]
+        }
+      ],
+      "summaryLength": 136,
+      "storyLength": 393
+    }
+  ]
+}

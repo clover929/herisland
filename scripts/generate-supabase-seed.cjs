@@ -1,0 +1,10 @@
+// Deterministic seed only: never insert fictional demo posts as real-user content.
+const fs=require('node:fs');const ts=require('typescript');
+require.extensions['.ts']=(module,file)=>module._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText,file);
+const {items}=require('../src/features/pegboard/catalog.ts');const {communities}=require('../src/data/index.ts');const women=JSON.parse(fs.readFileSync('src/features/women/candidates.json','utf8'));
+const q=value=>"'"+String(value).replaceAll("'","''")+"'";
+let sql='-- Idempotent public reference seed. No auth users, demo posts, comments or user layouts.\nbegin;\n';
+for(const c of communities)sql+=`insert into public.communities(id,slug,legacy_key,name,description) values(md5(${q('herisland-community-'+c.id)})::uuid,${q('community-'+c.id)},${q(c.id)},${q(c.name)},${q(c.description)}) on conflict(id) do update set name=excluded.name,description=excluded.description;\n`;
+for(const i of items)sql+=`insert into public.hobby_wall_items(id,name,category,asset_path,width,height,aspect_ratio,size_class,mount_type,anchor_point,collision_bounds) values(${[i.id,i.name,i.category,i.assetPath].map(q)},${i.width},${i.height},${i.aspectRatio},${q(i.sizeClass)},${q(i.mountType)},${q(JSON.stringify(i.anchorPoint))}::jsonb,${q(JSON.stringify(i.collisionBounds))}::jsonb) on conflict(id) do update set name=excluded.name,asset_path=excluded.asset_path;\n`;
+for(const w of women)sql+=`insert into public.women_profiles(id,slug,name_zh,name_en,status,source_data) values(${[w.id,w.slug,w.nameZh,w.nameEn,w.status].map(q)},${q(JSON.stringify(w))}::jsonb) on conflict(id) do update set slug=excluded.slug,name_zh=excluded.name_zh,name_en=excluded.name_en,status=excluded.status,source_data=excluded.source_data;\n`;
+sql+='commit;\n';fs.writeFileSync('supabase/migrations/202611100002_reference_seed.sql',sql);console.log({communities:communities.length,items:items.length,women:women.length});

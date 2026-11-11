@@ -1,0 +1,332 @@
+{
+  "batch": "005",
+  "previousBatch": "004",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "wang-zhenyi",
+    "jane-goodall",
+    "gertrude-elion",
+    "nadia-comaneci",
+    "gabrielle-chanel",
+    "virginia-woolf",
+    "barbara-hepworth",
+    "anne-sullivan",
+    "frances-perkins",
+    "eileen-collins"
+  ],
+  "reusedCandidates": [
+    "wang-zhenyi",
+    "jane-goodall"
+  ],
+  "newRecords": 8,
+  "failures": [
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1988/elion/facts/",
+      "outcome": "403 Forbidden；未作为已读取正文来源",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1988/summary/",
+      "outcome": "403 Forbidden；未作为已读取正文来源",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "排除此前32位已核实记录；复用王贞仪与古道尔，新增8位；本批不发布。",
+    "王贞仪与现代同名医学研究者区分，采用香港太空馆清代人物专题；不采用未读取的搜索命中。",
+    "诺贝尔官网埃利恩Facts和1988 Summary均403；改用MIT已读取正文，未采用具体化合物与专利对应关系。",
+    "CHANEL官网为品牌自述；不采用多维尔门店年份和宣传性首创断言；五号香水合作单独映射1920年代页面。",
+    "伍尔夫以大学档案确认作品及出版工作，未采用心理诊断与私人动机。",
+    "NASA柯林斯页面含历史性当前唯一措辞及任务日期口径差异；只采用首位与任务年份，不延伸现状。",
+    "所有肖像继续使用HerSpace原创占位图；赫普沃思官网明示版权，未下载第三方图片。",
+    "中文名为常见译名；地区为生涯关联地区。"
+  ],
+  "evidence": [
+    {
+      "slug": "wang-zhenyi",
+      "sources": [
+        {
+          "title": "Hong Kong Space Museum：清代女天文学家王贞仪",
+          "url": "https://hk.space.museum/en/web/spm/resources/curators-blog/2021/03/wang-zhenyi-an-extraordinary-woman-astronomer-from-the-qing-dynasty.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "撰写《月食解》，用自绘图解释月相和月食。",
+          "sourceUrls": [
+            "https://hk.space.museum/en/web/spm/resources/curators-blog/2021/03/wang-zhenyi-an-extraordinary-woman-astronomer-from-the-qing-dynasty.html"
+          ]
+        },
+        {
+          "claim": "部分数学、天文作品保存于《德风亭初集》，包括勾股与三角相关讨论。",
+          "sourceUrls": [
+            "https://hk.space.museum/en/web/spm/resources/curators-blog/2021/03/wang-zhenyi-an-extraordinary-woman-astronomer-from-the-qing-dynasty.html"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 379
+    },
+    {
+      "slug": "jane-goodall",
+      "sources": [
+        {
+          "title": "Jane Goodall Institute：纪念与生平档案",
+          "url": "https://janegoodall.org/remembering-jane/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1960年7月14日抵达贡贝开展黑猩猩研究，观察到黑猩猩使用工具。",
+          "sourceUrls": [
+            "https://janegoodall.org/remembering-jane/"
+          ]
+        },
+        {
+          "claim": "1977年创办珍·古道尔研究会。",
+          "sourceUrls": [
+            "https://janegoodall.org/remembering-jane/"
+          ]
+        }
+      ],
+      "summaryLength": 126,
+      "storyLength": 381
+    },
+    {
+      "slug": "gertrude-elion",
+      "sources": [
+        {
+          "title": "Lemelson-MIT：Gertrude Elion人物档案",
+          "url": "https://lemelson.mit.edu/resources/gertrude-elion",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1941年取得纽约大学化学硕士学位。",
+          "sourceUrls": [
+            "https://lemelson.mit.edu/resources/gertrude-elion"
+          ]
+        },
+        {
+          "claim": "1988年获得诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://lemelson.mit.edu/resources/gertrude-elion"
+          ]
+        }
+      ],
+      "summaryLength": 134,
+      "storyLength": 395
+    },
+    {
+      "slug": "nadia-comaneci",
+      "sources": [
+        {
+          "title": "International Gymnastics Hall of Fame：Nadia Comaneci",
+          "url": "https://www.ighof.com/inductees/1993_Nadia_Comaneci.php",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1976年蒙特利尔奥运会高低杠获得首个奥运体操满分10分，并夺三金。",
+          "sourceUrls": [
+            "https://www.ighof.com/inductees/1993_Nadia_Comaneci.php"
+          ]
+        },
+        {
+          "claim": "1980年莫斯科奥运会获平衡木与自由体操金牌。",
+          "sourceUrls": [
+            "https://www.ighof.com/inductees/1993_Nadia_Comaneci.php"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 384
+    },
+    {
+      "slug": "gabrielle-chanel",
+      "sources": [
+        {
+          "title": "CHANEL：1910年代品牌历史",
+          "url": "https://www.chanel.com/gb/about-chanel/the-house-of-chanel/1910/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "CHANEL：1920年代品牌历史",
+          "url": "https://www.chanel.com/gb/about-chanel/the-house-of-chanel/1920/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "V&A：Chanel设计专题",
+          "url": "https://www.vam.ac.uk/articles/what-makes-chanel-so-iconic",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1910年在巴黎康朋街21号开设Chanel Modes帽店。",
+          "sourceUrls": [
+            "https://www.chanel.com/gb/about-chanel/the-house-of-chanel/1910/"
+          ]
+        },
+        {
+          "claim": "1915年在比亚里茨开设高级定制服工作室。",
+          "sourceUrls": [
+            "https://www.chanel.com/gb/about-chanel/the-house-of-chanel/1910/"
+          ]
+        },
+        {
+          "claim": "1921年与调香师恩尼斯·鲍合作推出五号香水。",
+          "sourceUrls": [
+            "https://www.chanel.com/gb/about-chanel/the-house-of-chanel/1920/"
+          ]
+        }
+      ],
+      "summaryLength": 131,
+      "storyLength": 375
+    },
+    {
+      "slug": "virginia-woolf",
+      "sources": [
+        {
+          "title": "King’s College London：Virginia Woolf人物档案",
+          "url": "https://www.kcl.ac.uk/people/virginia-woolf",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Columbia Libraries：Hogarth Press馆藏说明",
+          "url": "https://online-exhibitions.library.columbia.edu/exhibits/show/jewels/themes/literature/208",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1897至1902年在伦敦国王学院女子部学习语言和历史。",
+          "sourceUrls": [
+            "https://www.kcl.ac.uk/people/virginia-woolf"
+          ]
+        },
+        {
+          "claim": "与伦纳德·伍尔夫共同创办霍加斯出版社。",
+          "sourceUrls": [
+            "https://www.kcl.ac.uk/people/virginia-woolf"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 376
+    },
+    {
+      "slug": "barbara-hepworth",
+      "sources": [
+        {
+          "title": "Barbara Hepworth：官方生平时间线",
+          "url": "https://barbarahepworth.org.uk/biography/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "University of Cambridge Kettle’s Yard：艺术家档案",
+          "url": "https://www.kettlesyard.cam.ac.uk/bio/barbara-hepworth/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1939年前往康沃尔圣艾夫斯，1949年购入特鲁温工作室。",
+          "sourceUrls": [
+            "https://barbarahepworth.org.uk/biography/"
+          ]
+        },
+        {
+          "claim": "1964年大型雕塑《单一形式》在纽约联合国总部揭幕。",
+          "sourceUrls": [
+            "https://barbarahepworth.org.uk/biography/"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 375
+    },
+    {
+      "slug": "anne-sullivan",
+      "sources": [
+        {
+          "title": "Perkins School for the Blind：Anne Sullivan传记",
+          "url": "https://www.perkins.org/anne-sullivan/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1886年从帕金斯学校毕业并发表毕业生代表演说。",
+          "sourceUrls": [
+            "https://www.perkins.org/anne-sullivan/"
+          ]
+        },
+        {
+          "claim": "1887年3月前往阿拉巴马州开始教授海伦·凯勒。",
+          "sourceUrls": [
+            "https://www.perkins.org/anne-sullivan/"
+          ]
+        }
+      ],
+      "summaryLength": 126,
+      "storyLength": 375
+    },
+    {
+      "slug": "frances-perkins",
+      "sources": [
+        {
+          "title": "U.S. Department of Labor：1933–1945部门历史",
+          "url": "https://www.dol.gov/general/aboutdol/history/dolchp03",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1933至1945年担任美国劳工部长，为美国首位女性内阁成员。",
+          "sourceUrls": [
+            "https://www.dol.gov/general/aboutdol/history/dolchp03"
+          ]
+        },
+        {
+          "claim": "参与推动养老保险与1935年社会保障立法。",
+          "sourceUrls": [
+            "https://www.dol.gov/general/aboutdol/history/dolchp03"
+          ]
+        }
+      ],
+      "summaryLength": 130,
+      "storyLength": 384
+    },
+    {
+      "slug": "eileen-collins",
+      "sources": [
+        {
+          "title": "NASA：Eileen Collins官方履历与任务档案",
+          "url": "https://www.nasa.gov/former-astronaut-eileen-collins/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1995年执行STS-63，成为航天飞机首位女性驾驶员。",
+          "sourceUrls": [
+            "https://www.nasa.gov/former-astronaut-eileen-collins/"
+          ]
+        },
+        {
+          "claim": "1999年执行STS-93，成为航天飞机首位女性指令长。",
+          "sourceUrls": [
+            "https://www.nasa.gov/former-astronaut-eileen-collins/"
+          ]
+        }
+      ],
+      "summaryLength": 142,
+      "storyLength": 396
+    }
+  ]
+}

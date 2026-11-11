@@ -1,0 +1,12 @@
+'use client';
+import {useEffect,useRef} from 'react';
+type Point={t:number;x:number;y:number};
+export default function IslandCursor(){const ref=useRef<HTMLDivElement>(null);useEffect(()=>{
+ const layer=ref.current,viewport=layer?.parentElement;if(!layer||!viewport)return;const reduced=matchMedia('(prefers-reduced-motion: reduce)');if(!matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+ const dots=[...layer.querySelectorAll<HTMLElement>('i')];let history:Point[]=[],frame=0,inside=false,drag=false,x=0,y=0,end=0;
+ const tick=(t:number)=>{history.push({t,x,y});history=history.filter(p=>p.t>=t-1800);dots.forEach((dot,i)=>{const time=t-i*150;let a=history[0],b=history[history.length-1];for(let j=1;j<history.length;j++)if(history[j].t>=time){a=history[j-1];b=history[j];break}if(!a||!b)return;const ratio=Math.max(0,Math.min(1,(time-a.t)/Math.max(1,b.t-a.t)));dot.style.transform=`translate(${a.x+(b.x-a.x)*ratio}px,${a.y+(b.y-a.y)*ratio}px) translate(-50%,-50%)`;dot.style.opacity=String(i===0?1:(!reduced.matches&&(drag||t-end<450)?(.55-(i-1)*(.5/9))*(drag?1:Math.max(0,1-(t-end)/450)):0))});frame=inside?requestAnimationFrame(tick):0};
+ const move=(e:PointerEvent)=>{if(e.pointerType!=='mouse')return;const r=viewport.getBoundingClientRect();x=e.clientX-r.left;y=e.clientY-r.top;inside=true;viewport.classList.add('hi-custom-cursor');layer.style.opacity='1';layer.classList.toggle('is-hot',!!(e.target as HTMLElement).closest('a,button'));if(!frame)frame=requestAnimationFrame(tick)};
+ const down=(e:PointerEvent)=>{if(e.pointerType==='mouse'&&!(e.target as HTMLElement).closest('a,button'))drag=true};const up=()=>{drag=false;end=performance.now()};const hide=()=>{inside=false;drag=false;history=[];cancelAnimationFrame(frame);frame=0;layer.style.opacity='0';viewport.classList.remove('hi-custom-cursor')};
+ viewport.addEventListener('pointermove',move);viewport.addEventListener('pointerdown',down);viewport.addEventListener('pointerleave',hide);window.addEventListener('pointerup',up);window.addEventListener('blur',hide);
+ return()=>{hide();viewport.removeEventListener('pointermove',move);viewport.removeEventListener('pointerdown',down);viewport.removeEventListener('pointerleave',hide);window.removeEventListener('pointerup',up);window.removeEventListener('blur',hide)};
+ },[]);return <div ref={ref} className="hi-cursor-layer" aria-hidden="true">{Array.from({length:11},(_,i)=><i key={i} style={{width:i===0?14:10-(i-1)*(8/9),height:i===0?14:10-(i-1)*(8/9)}}/>)}</div>}

@@ -1,0 +1,332 @@
+{
+  "batch": "008",
+  "previousBatch": "007",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "sofia-kovalevskaya",
+    "dorothy-hodgkin",
+    "patricia-bath",
+    "alice-coachman",
+    "mary-barra",
+    "gabriela-mistral",
+    "alma-thomas",
+    "mary-lyon",
+    "ellen-johnson-sirleaf",
+    "jessica-watson"
+  ],
+  "reusedCandidates": [],
+  "newRecords": 10,
+  "failures": [
+    {
+      "url": "https://www.teamusa.com/hall-of-fame/hall-of-fame-members/alice-coachman",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.hks.harvard.edu/more/alumni/alumni-stories/colombian-president-juan-manuel-santos-mcmpa-1981-wins-nobel-peace-prize",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.hks.harvard.edu/research-insights/policy-topics/public-leadership-management/ellen-johnson-sirleaf",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "先读批次007报告，排除62位已核实人物；本批10位全部新增，十领域各1位，原有62条逐条比对保持不变。",
+    "全部仅设verified，未发布、未精选；第三方图像未取得明确许可，继续用HerSpace原创占位图。",
+    "科瓦列夫斯卡娅区分柏林私人指导与哥廷根授予博士，斯德哥尔摩1884职位不改写为现代终身教职。",
+    "霍奇金采用学院正文分开1964诺奖与1969胰岛素结构；未采用搜索中将博士时间误为1928、混写胰岛素与诺奖原因的大学页。",
+    "巴斯NLM同页1974加入两校、1975另一部门任职，里程碑写法不一致，本批不采用首任UCLA年份；不补专利日期与医疗承诺。",
+    "科奇曼TeamUSA403，采用USATF已读正文；两机构出生年份1922/1923不同，档案不填该年份。",
+    "博拉采用1980入职、2014CEO与2016董事长历史事实；旧履历兼任董事及现任措辞不自动当作今日状态。",
+    "米斯特拉尔区分1922首版与1923智利版，不复制诗歌或以私人生活解释作品。",
+    "托马斯同页旧传记任教35/38年口径不同，采用2024传记事实，不填写年数；晚年抽象风格不等于此前没有创作。",
+    "莱昂保留Female Seminary历史名称与1837至1849 Principal，未采用该页美国此前没有女性学院的绝对断言；宗教语境不直接映射现代神学院。",
+    "瑟利夫大学页403，改用总统中心官方履历；区分2005当选与2006就职，不采用宏观经济数据、排名和独力重建说法。",
+    "沃森官网最年轻环球航行宣传未核对纪录机构规则，不作为认证事实；采用210天、2010返航与2011获奖，事实分别映射图书页和官方奖项档案；旧年龄、职业不当作现状。"
+  ],
+  "evidence": [
+    {
+      "slug": "sofia-kovalevskaya",
+      "sources": [
+        {
+          "title": "University of St Andrews MacTutor：Sofia Kovalevskaya",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1874年获哥廷根大学博士学位。",
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/"
+          ]
+        },
+        {
+          "claim": "1884年在斯德哥尔摩开始讲授偏微分方程，并获高等分析教授职位。",
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/"
+          ]
+        }
+      ],
+      "summaryLength": 133,
+      "storyLength": 373
+    },
+    {
+      "slug": "dorothy-hodgkin",
+      "sources": [
+        {
+          "title": "Somerville College Oxford：霍奇金胰岛素模型与研究史",
+          "url": "https://www.some.ox.ac.uk/news/somerville-student-rebuilds-dorothy-hodgkins-insulin-model/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Somerville College Oxford：霍奇金纪念牌与生平",
+          "url": "https://www.some.ox.ac.uk/news/blue-plaque-unveiled-honouring-dorothy-hodgkin-1910-1994/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1964年获得诺贝尔化学奖。",
+          "sourceUrls": [
+            "https://www.some.ox.ac.uk/news/somerville-student-rebuilds-dorothy-hodgkins-insulin-model/"
+          ]
+        },
+        {
+          "claim": "1969年与团队解析胰岛素结构。",
+          "sourceUrls": [
+            "https://www.some.ox.ac.uk/news/somerville-student-rebuilds-dorothy-hodgkins-insulin-model/"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 388
+    },
+    {
+      "slug": "patricia-bath",
+      "sources": [
+        {
+          "title": "National Library of Medicine：Patricia E. Bath传记",
+          "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1977年与三位同事创办美国防盲研究所。",
+          "sourceUrls": [
+            "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25"
+          ]
+        },
+        {
+          "claim": "1983年负责Drew-UCLA眼科住院医师培训项目，为美国首位担任此类负责人的女性。",
+          "sourceUrls": [
+            "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25"
+          ]
+        }
+      ],
+      "summaryLength": 138,
+      "storyLength": 409
+    },
+    {
+      "slug": "alice-coachman",
+      "sources": [
+        {
+          "title": "USA Track & Field：Alice Coachman官方档案",
+          "url": "https://www.usatf.org/athlete-bios/alice-coachman",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1939至1948年连续十次获得全国跳高冠军。",
+          "sourceUrls": [
+            "https://www.usatf.org/athlete-bios/alice-coachman"
+          ]
+        },
+        {
+          "claim": "1948年伦敦奥运会以1.68米夺女子跳高金牌，成为首位获得奥运金牌的黑人女性。",
+          "sourceUrls": [
+            "https://www.usatf.org/athlete-bios/alice-coachman"
+          ]
+        }
+      ],
+      "summaryLength": 134,
+      "storyLength": 378
+    },
+    {
+      "slug": "mary-barra",
+      "sources": [
+        {
+          "title": "General Motors：Mary T. Barra官方履历",
+          "url": "https://www.gm.com/company/leadership.detail.html/Pages/bios/global/en/corporate-officers/Mary-Barra",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1980年以工学合作学生身份进入通用汽车庞蒂亚克部门。",
+          "sourceUrls": [
+            "https://www.gm.com/company/leadership.detail.html/Pages/bios/global/en/corporate-officers/Mary-Barra"
+          ]
+        },
+        {
+          "claim": "2014年出任通用汽车首席执行官，2016年获选董事会主席。",
+          "sourceUrls": [
+            "https://www.gm.com/company/leadership.detail.html/Pages/bios/global/en/corporate-officers/Mary-Barra"
+          ]
+        }
+      ],
+      "summaryLength": 136,
+      "storyLength": 386
+    },
+    {
+      "slug": "gabriela-mistral",
+      "sources": [
+        {
+          "title": "Biblioteca Nacional de Chile Memoria Chilena：Gabriela Mistral",
+          "url": "https://www.memoriachilena.gob.cl/602/w3-article-3429.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1922年在纽约出版首部诗集《绝望》。",
+          "sourceUrls": [
+            "https://www.memoriachilena.gob.cl/602/w3-article-3429.html"
+          ]
+        },
+        {
+          "claim": "1945年获得诺贝尔文学奖，1951年获智利国家文学奖。",
+          "sourceUrls": [
+            "https://www.memoriachilena.gob.cl/602/w3-article-3429.html"
+          ]
+        }
+      ],
+      "summaryLength": 134,
+      "storyLength": 389
+    },
+    {
+      "slug": "alma-thomas",
+      "sources": [
+        {
+          "title": "Smithsonian American Art Museum：Alma Thomas",
+          "url": "https://americanart.si.edu/artist/alma-thomas-4778",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1924年成为霍华德大学首位美术专业毕业生。",
+          "sourceUrls": [
+            "https://americanart.si.edu/artist/alma-thomas-4778"
+          ]
+        },
+        {
+          "claim": "1972年成为首位在惠特尼美国艺术博物馆举办个展的黑人女性。",
+          "sourceUrls": [
+            "https://americanart.si.edu/artist/alma-thomas-4778"
+          ]
+        }
+      ],
+      "summaryLength": 136,
+      "storyLength": 395
+    },
+    {
+      "slug": "mary-lyon",
+      "sources": [
+        {
+          "title": "Mount Holyoke College：创校与早期历史",
+          "url": "https://connect.mtholyoke.edu/marketing-and-communications/Mary-lyon/founding",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Mount Holyoke LITS：历任负责人档案",
+          "url": "https://lits.mtholyoke.edu/archives-special-collections/asc-research/research-guides/presidents-mount-holyoke",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1837年创办的蒙特霍利约克女子学校开学，首批约80名学生入学。",
+          "sourceUrls": [
+            "https://connect.mtholyoke.edu/marketing-and-communications/Mary-lyon/founding"
+          ]
+        },
+        {
+          "claim": "1837至1849年担任蒙特霍利约克创办人和校长。",
+          "sourceUrls": [
+            "https://lits.mtholyoke.edu/archives-special-collections/asc-research/research-guides/presidents-mount-holyoke"
+          ]
+        }
+      ],
+      "summaryLength": 133,
+      "storyLength": 403
+    },
+    {
+      "slug": "ellen-johnson-sirleaf",
+      "sources": [
+        {
+          "title": "Ellen Johnson Sirleaf Presidential Center：官方人物履历",
+          "url": "https://ejscenter.org/our-teams/ellen-johnson-sirleaf/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2005年当选利比里亚总统，2006年1月16日就职。",
+          "sourceUrls": [
+            "https://ejscenter.org/our-teams/ellen-johnson-sirleaf/"
+          ]
+        },
+        {
+          "claim": "2011年赢得总统连任，并获诺贝尔和平奖。",
+          "sourceUrls": [
+            "https://ejscenter.org/our-teams/ellen-johnson-sirleaf/"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 415
+    },
+    {
+      "slug": "jessica-watson",
+      "sources": [
+        {
+          "title": "Jessica Watson：官方图书与航程介绍",
+          "url": "https://www.jessicawatson.com.au/books",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Australian of the Year：Jessica Watson OAM获奖档案",
+          "url": "https://australianoftheyear.org.au/recipients/jessica-watson-oam",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Jessica Watson：官方人物简介",
+          "url": "https://www.jessicawatson.com.au/about",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "历时210天的单人航行于2010年5月15日返回陆地。",
+          "sourceUrls": [
+            "https://www.jessicawatson.com.au/books"
+          ]
+        },
+        {
+          "claim": "2011年获澳大利亚年度青年人物称号。",
+          "sourceUrls": [
+            "https://australianoftheyear.org.au/recipients/jessica-watson-oam"
+          ]
+        }
+      ],
+      "summaryLength": 130,
+      "storyLength": 398
+    }
+  ]
+}

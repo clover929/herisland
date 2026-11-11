@@ -1,0 +1,387 @@
+{
+  "batch": "007",
+  "previousBatch": "006",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "sophie-germain",
+    "barbara-mcclintock",
+    "rita-levi-montalcini",
+    "serena-williams",
+    "sara-blakely",
+    "selma-lagerlof",
+    "berthe-morisot",
+    "savitribai-phule",
+    "michelle-bachelet",
+    "junko-tabei"
+  ],
+  "reusedCandidates": [],
+  "newRecords": 10,
+  "failures": [
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1909/lagerlof/biographical/",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.ohchr.org/en/about-us/high-commissioner/past/michelle-bachelet",
+      "outcome": "工具无法访问；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
+      "outcome": "TimeoutError；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.unwomen.org/sites/default/files/Headquarters/Attachments/Sections/About%20Us/Directorate/UNwomen-MichelleBachelet-FormerED-es%20pdf.pdf",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.musee-orsay.fr/en/artworks/le-berceau-1130",
+      "outcome": "工具无法访问；不将猜测路径当作有效馆藏URL；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.un.org/sg/en/content/sg/personnel-appointments/2018-08-10/ms-michelle-bachelet-of-chile-united-nations-high-commissioner-for-human-rights-full-announcement-following-confirmation-general-assembly",
+      "outcome": "人机验证，无可用正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.un.org/sg/sites/default/files/document/2026-02/bachelet-cv-en.pdf",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.un.org/millenniumgoals/members/Michelle-Bachelet.shtml",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.un.org/en/authors/michelle-bachelet",
+      "outcome": "403 Forbidden；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.cshl.edu/archives/barbara-mcclintock/",
+      "outcome": "404；猜测档案路径未命中；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.cshl.edu/archives/collections/barbara-mcclintock/",
+      "outcome": "工具无法访问；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://profiles.nlm.nih.gov/spotlight/ll/feature/biographical",
+      "outcome": "人机验证，无可用正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://profiles.nlm.nih.gov/spotlight/ll/feature/discovery",
+      "outcome": "工具无法访问；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "先读批次006报告，排除原有52位；本批10位全部新增，十领域各1位。此前52条写入前后逐条比对保持不变。",
+    "全部仅设verified，未发布、未精选；统一HerSpace原创占位图，第三方图片未取得明确许可。",
+    "热尔曼竞赛提交与颁奖年份不强行合并，正文只写获奖无具体年份；费马研究并非完整证明。",
+    "麦克林托克采用1941到访冷泉港，不混同永久职位年份；不采用Carnegie文中将玉米交换误举为X、Y染色体的说明，不夸大同行全体排斥。",
+    "Rita以大学正文核对学位、任职与NGF合作；NLM人机验证未作证据。",
+    "威廉姆斯统计明确为2026年6月WTA回顾，事实选历史比赛，不推断复出后成绩或现时排名。",
+    "SPANX品牌页1998指原型、交易公告2000指创办，分别记录；企业估值不是个人净资产，2021职位不是当前职位。",
+    "拉格洛夫诺奖官网403，采用Mårbacka故居官方正文；尼尔斯作品有分卷年份口径差异，正文不强行写单一年份。",
+    "普勒仅写浦那任教与诗集，不采用印度第一所女子学校等范围过大断言；不把焦蒂拉奥全部理论归为她。",
+    "巴切莱特采用联合国越南2023正文与妇女署历任表，仅写2010至2013年份，不采用地区页面起始月份；旧现任措辞不当作现状。",
+    "田部井采用本人基金会官方履历；九州大学搜索摘要珠峰日期与官方/纪录资料不一致，未采用；旧页面旅行频率不当作现状。",
+    "一次CSHL链接点击参数解析失败，改用机构搜索和已成功读取正文；搜索摘要与访问失败页均不作正文证据。"
+  ],
+  "evidence": [
+    {
+      "slug": "sophie-germain",
+      "sources": [
+        {
+          "title": "University of St Andrews MacTutor：Sophie Germain",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Germain/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "通过巴黎综合理工学院讲义学习，并以勒布朗之名向拉格朗日交流数学。",
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Germain/"
+          ]
+        },
+        {
+          "claim": "1804至1809年与高斯通信，讨论数论研究。",
+          "sourceUrls": [
+            "https://mathshistory.st-andrews.ac.uk/Biographies/Germain/"
+          ]
+        }
+      ],
+      "summaryLength": 130,
+      "storyLength": 379
+    },
+    {
+      "slug": "barbara-mcclintock",
+      "sources": [
+        {
+          "title": "Cold Spring Harbor Laboratory：Barbara McClintock",
+          "url": "https://www.cshl.edu/archives-blog/womens-history-month-barbara-mcclintock/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Carnegie Science：Barbara McClintock研究生涯",
+          "url": "https://carnegiescience.edu/news/barbara-mcclintock-visionary-ahead-her-time",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1941年前往冷泉港研究玉米遗传变化，随后长期在那里工作。",
+          "sourceUrls": [
+            "https://www.cshl.edu/archives-blog/womens-history-month-barbara-mcclintock/"
+          ]
+        },
+        {
+          "claim": "1983年因可移动遗传元件研究获得诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://www.cshl.edu/archives-blog/womens-history-month-barbara-mcclintock/"
+          ]
+        }
+      ],
+      "summaryLength": 132,
+      "storyLength": 385
+    },
+    {
+      "slug": "rita-levi-montalcini",
+      "sources": [
+        {
+          "title": "Washington University：Rita Levi-Montalcini讣告与研究回顾",
+          "url": "https://source.washu.edu/2013/01/obituary-nobel-laureate-rita-levimontalcini/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "WashU Medicine：诺贝尔奖得主档案",
+          "url": "https://medicine.washu.edu/research/nobel-prize-winners/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1936年毕业于都灵医学院，1947年开始在华盛顿大学工作。",
+          "sourceUrls": [
+            "https://source.washu.edu/2013/01/obituary-nobel-laureate-rita-levimontalcini/"
+          ]
+        },
+        {
+          "claim": "1986年与斯坦利·科恩共同获得诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://source.washu.edu/2013/01/obituary-nobel-laureate-rita-levimontalcini/"
+          ]
+        }
+      ],
+      "summaryLength": 133,
+      "storyLength": 388
+    },
+    {
+      "slug": "serena-williams",
+      "sources": [
+        {
+          "title": "WTA：Serena Williams生涯统计，2026年6月1日",
+          "url": "https://www.wtatennis.com/news/4512405/the-numbers-behind-serena-williams-remarkable-career",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1999年在巴黎室内赛赢得首个WTA单打冠军。",
+          "sourceUrls": [
+            "https://www.wtatennis.com/news/4512405/the-numbers-behind-serena-williams-remarkable-career"
+          ]
+        },
+        {
+          "claim": "2012年伦敦奥运会获得女子单打及女子双打金牌。",
+          "sourceUrls": [
+            "https://www.wtatennis.com/news/4512405/the-numbers-behind-serena-williams-remarkable-career"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 377
+    },
+    {
+      "slug": "sara-blakely",
+      "sources": [
+        {
+          "title": "Blackstone：SPANX多数股权交易完成公告，2021年11月18日",
+          "url": "https://www.blackstone.com/news/press/spanx-inc-and-blackstone-close-majority-sale-secure-new-investors-including-oprah-winfrey-reese-witherspoon-and-whitney-wolfe-herd/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "SPANX：品牌历史",
+          "url": "https://spanx.com/en-nl/pages/about-us",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2000年创办SPANX。",
+          "sourceUrls": [
+            "https://www.blackstone.com/news/press/spanx-inc-and-blackstone-close-majority-sale-secure-new-investors-including-oprah-winfrey-reese-witherspoon-and-whitney-wolfe-herd/"
+          ]
+        },
+        {
+          "claim": "2021年多数股权交易完成时保留重要股权，并担任执行董事长。",
+          "sourceUrls": [
+            "https://www.blackstone.com/news/press/spanx-inc-and-blackstone-close-majority-sale-secure-new-investors-including-oprah-winfrey-reese-witherspoon-and-whitney-wolfe-herd/"
+          ]
+        }
+      ],
+      "summaryLength": 141,
+      "storyLength": 375
+    },
+    {
+      "slug": "selma-lagerlof",
+      "sources": [
+        {
+          "title": "Mårbacka Memorial Estate：Selma Lagerlöf",
+          "url": "https://marbacka.com/en/forfattaren/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Mårbacka：故居历史",
+          "url": "https://marbacka.com/hemmet/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1891年出版处女作《古斯塔·贝林的故事》。",
+          "sourceUrls": [
+            "https://marbacka.com/en/forfattaren/"
+          ]
+        },
+        {
+          "claim": "1909年成为首位获得诺贝尔文学奖的女性，1914年进入瑞典学院。",
+          "sourceUrls": [
+            "https://marbacka.com/en/forfattaren/"
+          ]
+        }
+      ],
+      "summaryLength": 138,
+      "storyLength": 389
+    },
+    {
+      "slug": "berthe-morisot",
+      "sources": [
+        {
+          "title": "National Gallery of Art：Berthe Morisot",
+          "url": "https://www.nga.gov/artists/1733-berthe-morisot",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "作品曾在巴黎年度沙龙展览展出。",
+          "sourceUrls": [
+            "https://www.nga.gov/artists/1733-berthe-morisot"
+          ]
+        },
+        {
+          "claim": "1874年参加首次印象派展览。",
+          "sourceUrls": [
+            "https://www.nga.gov/artists/1733-berthe-morisot"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 403
+    },
+    {
+      "slug": "savitribai-phule",
+      "sources": [
+        {
+          "title": "INFLIBNET Education and Society：Jyotiba与Savitribai Phule",
+          "url": "https://ebooks.inflibnet.ac.in/socp13/chapter/193/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1848年在浦那的女子学校任教。",
+          "sourceUrls": [
+            "https://ebooks.inflibnet.ac.in/socp13/chapter/193/"
+          ]
+        },
+        {
+          "claim": "1854年出版诗集《Kavyaphule》。",
+          "sourceUrls": [
+            "https://ebooks.inflibnet.ac.in/socp13/chapter/193/"
+          ]
+        }
+      ],
+      "summaryLength": 142,
+      "storyLength": 405
+    },
+    {
+      "slug": "michelle-bachelet",
+      "sources": [
+        {
+          "title": "United Nations in Viet Nam：Michelle Bachelet领导力对话，2023年4月3日",
+          "url": "https://vietnam.un.org/en/226075-women%E2%80%99s-leadership-dialogue-series-dialogue-ms-michelle-bachelet",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "UN Women Chile：历任执行主任",
+          "url": "https://chile.unwomen.org/es/about-us/directorate",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2006年成为智利首位女性总统，2014年第二次出任总统。",
+          "sourceUrls": [
+            "https://vietnam.un.org/en/226075-women%E2%80%99s-leadership-dialogue-series-dialogue-ms-michelle-bachelet"
+          ]
+        },
+        {
+          "claim": "2010年成为联合国妇女署首任执行主任。",
+          "sourceUrls": [
+            "https://vietnam.un.org/en/226075-women%E2%80%99s-leadership-dialogue-series-dialogue-ms-michelle-bachelet"
+          ]
+        }
+      ],
+      "summaryLength": 135,
+      "storyLength": 410
+    },
+    {
+      "slug": "junko-tabei",
+      "sources": [
+        {
+          "title": "Junko Tabei Fund：官方英文人物档案",
+          "url": "https://junko-tabei.jp/junko-tabei/english",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1975年登顶珠穆朗玛峰，成为首位登顶女性。",
+          "sourceUrls": [
+            "https://junko-tabei.jp/junko-tabei/english"
+          ]
+        },
+        {
+          "claim": "1992年成为首位完成七大洲最高峰攀登的女性。",
+          "sourceUrls": [
+            "https://junko-tabei.jp/junko-tabei/english"
+          ]
+        }
+      ],
+      "summaryLength": 136,
+      "storyLength": 392
+    }
+  ]
+}

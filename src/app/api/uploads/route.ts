@@ -1,0 +1,7 @@
+import {NextRequest,NextResponse} from 'next/server';
+import {serverSupabase} from '@/lib/supabase/server';
+import {supabaseMode} from '@/lib/supabase/config';
+import {allowedOrigin} from '@/features/ai/origin';
+import {boundedBytes,MAX_UPLOAD,uploadKind} from '@/features/uploads/validate';
+export const dynamic='force-dynamic';
+export async function POST(request:NextRequest){if(!allowedOrigin(request))return NextResponse.json({error:'不允许跨站上传'},{status:403});if(!supabaseMode())return NextResponse.json({error:'演示模式尚未启用用户上传'},{status:503});try{const client=await serverSupabase();const {data}=await client.auth.getUser();if(!data.user)return NextResponse.json({error:'请先登录'},{status:401});const bytes=await boundedBytes(request,MAX_UPLOAD+65536);const form=await new Request('https://upload.invalid',{method:'POST',headers:{'content-type':request.headers.get('content-type')||''},body:bytes}).formData();const file=form.get('file');if(!(file instanceof File))return NextResponse.json({error:'缺少文件'},{status:400});const content=new Uint8Array(await file.arrayBuffer()),kind=uploadKind(content,file.type),path=`${data.user.id}/${crypto.randomUUID()}.${kind.extension}`;const result=await client.storage.from('herisland-user-media').upload(path,content,{contentType:kind.mime,upsert:false});if(result.error)return NextResponse.json({error:'上传失败，请检查存储配置'},{status:400});return NextResponse.json({path},{headers:{'Cache-Control':'private, no-store'}})}catch{return NextResponse.json({error:'文件无效、超过5MB或服务暂时不可用'},{status:400})}}

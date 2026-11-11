@@ -1,0 +1,12 @@
+import {describe,it,expect} from 'vitest';
+import candidates from '../src/features/women/candidates.json';
+import {parseWomen,publicWomen,browseWomen} from '../src/features/women/schema';
+const fixture=()=>({...candidates[0],timeline:[],featured:false,fields:['测试领域'],regions:['测试地区'],keywords:['测试词'],occupation:'测试职业',facts:[{claim:'测试事实一',sourceUrls:['https://example.org']},{claim:'测试事实二',sourceUrls:['https://example.org']}],summary:'测'.repeat(100),story:'测'.repeat(300),achievements:['测试成就'],sources:[{title:'测试来源',url:'https://example.org',checkedAt:'2026-11-09'}],status:'published'});
+describe('人物 schema 与发布边界',()=>{
+ it('102位唯一目录，首批10位审核发布',()=>{expect(parseWomen(candidates)).toHaveLength(102);expect(publicWomen(candidates)).toHaveLength(10);expect(candidates.filter(w=>w.status==='verified')).toHaveLength(92);expect(candidates.filter(w=>w.status==='candidate')).toHaveLength(0)});
+ it('拒绝重复、非法状态、不完整核实和图片版权',()=>{for(const input of [[candidates[0],candidates[0]],[{...candidates[0],status:'other'}],[{...candidates[0],status:'verified',summary:''}],[{...candidates[0],image:{url:'https://example.org/photo',license:'unknown',credit:''}}]])expect(()=>parseWomen(input)).toThrow()});
+ it('事实必须映射到来源且核实记录满足篇幅',()=>{expect(()=>parseWomen([{...fixture(),facts:[{claim:'未支持事实',sourceUrls:['https://missing.example']}]}])).toThrow();expect(()=>parseWomen([{...fixture(),summary:'过短'}])).toThrow();expect(()=>parseWomen([{...fixture(),facts:[]}])).toThrow()});
+ it('来源日期和 URL 必须有效',()=>{expect(()=>parseWomen([{...fixture(),sources:[{title:'test',url:'javascript:alert(1)',checkedAt:'2026-11-09'}]}])).toThrow();expect(()=>parseWomen([{...fixture(),updatedAt:'2026-02-30'}])).toThrow()});
+ it('verified 仍不公开，published 才公开',()=>{expect(publicWomen([{...fixture(),status:'verified'}])).toEqual([]);expect(publicWomen([fixture()])).toHaveLength(1)});
+ it('支持 100 位人物、组合筛选、分页和空状态',()=>{const rows=parseWomen(Array.from({length:100},(_,i)=>({...fixture(),id:`person-${i}`,slug:`person-${i}`})));expect(browseWomen(rows).total).toBe(100);expect(browseWomen(rows,'测试词','测试领域','测试地区',9).items).toHaveLength(4);expect(browseWomen(rows,'MARIE').total).toBe(100);expect(browseWomen(rows,'不存在').items).toEqual([]);expect(browseWomen(rows,'','','',999).page).toBe(9);expect(browseWomen(rows,'','','',NaN).page).toBe(1)});
+});

@@ -1,0 +1,5 @@
+import {createServerClient} from '@supabase/ssr';
+import {NextResponse,type NextRequest} from 'next/server';
+import {supabaseConfig,supabaseMode} from './lib/supabase/config';
+export async function proxy(request:NextRequest){if(!supabaseMode())return NextResponse.next();let response=NextResponse.next({request});try{const {url,key}=supabaseConfig();const client=createServerClient(url,key,{cookies:{getAll:()=>request.cookies.getAll(),setAll(values,headers){values.forEach(({name,value})=>request.cookies.set(name,value));response=NextResponse.next({request});values.forEach(({name,value,options})=>response.cookies.set(name,value,options));Object.entries(headers).forEach(([name,value])=>response.headers.set(name,value))}}});await client.auth.getClaims();response.headers.set('Cache-Control','private, no-store');return response}catch{return NextResponse.json({error:'认证服务尚未配置或暂时不可用'},{status:503,headers:{'Cache-Control':'private, no-store'}})}}
+export const config={matcher:['/profile/:path*','/create/:path*','/login','/register','/auth/:path*','/api/auth/:path*']};

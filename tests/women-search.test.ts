@@ -1,0 +1,11 @@
+import {it,expect,vi} from 'vitest';
+import {internalWomen,publishedWomen} from '../src/features/women/catalog';
+import {searchWomen,evidenceFor} from '../src/features/women/search';
+import {reply} from '../src/features/ai/service';
+const questions=['有哪些值得了解的女性数学家？','有哪些女性奥运冠军？','哪些女性在科技领域取得过重要成就？','请介绍徐莉佳的帆船经历。','有没有一位叫作不存在测试人物的人？'];
+it('集成数量与发布边界',()=>{expect(internalWomen).toHaveLength(102);expect(internalWomen.filter(w=>w.lastVerifiedAt)).toHaveLength(102);expect(publishedWomen).toHaveLength(10)});
+for(const [i,q] of questions.entries())it(q,()=>{const result=searchWomen(internalWomen,q);if([1,3,4].includes(i))expect(result).toEqual([]);else{expect(result.length).toBeGreaterThan(0);expect(result.every(w=>w.status==='published')).toBe(true);if(i===0)expect(result.every(w=>w.occupation.includes('数学'))).toBe(true);if(i===2)expect(result.some(w=>w.nameEn==='Grace Hopper')).toBe(true)}});
+for(const q of ['Ada Lovelace','凯瑟琳·约翰逊','计算机','NASA','药学研究者'])it('字段检索 '+q,()=>expect(searchWomen(internalWomen,q).length).toBeGreaterThan(0));
+it('跨领域推荐与来源映射',()=>{const found=searchWomen(internalWomen,'跨领域推荐 科学 数学 医学');expect(new Set(found.flatMap(w=>w.fields)).size).toBeGreaterThan(1);for(const f of evidenceFor(found)){expect(f.sources.length).toBeGreaterThan(0);expect(publishedWomen.some(w=>f.detail==='/women/'+w.slug)).toBe(true)}});
+it('未知人物不调用模型',async()=>{const chat=vi.fn();expect(await reply({mode:'Explore',messages:[{role:'user',content:questions[4]}]},{chat},new AbortController().signal)).toContain('没有找到');expect(chat).not.toHaveBeenCalled()});
+it('忽略伪造事实和模型指令，输出固定引用',async()=>{const chat=vi.fn().mockResolvedValue('{"ids":["fake"]}');const answer=await reply({mode:'Explore',messages:[{role:'user',content:'Ada Lovelace'}]},{chat},new AbortController().signal);expect(answer).toContain('/women/ada-lovelace');expect(answer).toContain('https://');expect(answer).not.toContain('fake');expect(chat.mock.calls[0][0][0].content).toContain('不可信');expect(chat.mock.calls[0][0][1].content).not.toContain(internalWomen.find(w=>w.status==='verified')!.story)});

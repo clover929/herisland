@@ -1,0 +1,353 @@
+{
+  "batch": "010",
+  "previousBatch": "009",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "ingrid-daubechies",
+    "vera-rubin",
+    "rebecca-lee-crumpler",
+    "allyson-felix",
+    "kiran-mazumdar-shaw",
+    "octavia-butler",
+    "louise-bourgeois",
+    "nannie-helen-burroughs",
+    "huda-shaarawi",
+    "christina-koch"
+  ],
+  "reusedCandidates": [],
+  "newRecords": 10,
+  "failures": [
+    {
+      "url": "https://www.biocon.com/about-us/board-of-directors-biocon/kiran-mazumdar-shaw-biocon/",
+      "outcome": "首次Timeout，重试502；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.biocon.com/about-us/our-legacy/",
+      "outcome": "Timeout；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://archive.biocon.com/biocon_press_releases_050315.asp",
+      "outcome": "Timeout；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.biocon.com/legacy-biocon/",
+      "outcome": "Timeout；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://archive.biocon.com/biocon_invrelation_com_history.asp",
+      "outcome": "Timeout；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.biocon.com/docs/Biocon_Integrated_Annual_Report_2023.pdf",
+      "outcome": "Timeout；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.usatf.org/athlete-bios/allyson-felix",
+      "outcome": "两次Timeout，改用IOC官方档案；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "已读取批次009报告，排除原有82位，本批十领域各新增1位；此前82条写入前后逐条比对未变。",
+    "全部verified，未发布、未精选；第三方图片未取得明确许可，统一HerSpace原创占位图。",
+    "多贝西数学研究由Duke正文支持，IMU主席事实单独映射领导名单；未采用未读取PDF的奖项摘要。",
+    "鲁宾采用星系旋转证据，避免官网混淆宇宙总质量与物质比例、首个观测证据等过宽表述。",
+    "克伦普勒无存世肖像，NLM页面示意图不当作本人照片；历史医学书不作当代医疗指导。",
+    "菲利克斯采用IOC逐届成绩，东京2020作为赛事名称；未读取USATF正文。",
+    "马宗达尔-肖因Biocon官网多次失败，改用联邦大学校友正文；不写未核实创办年份；Master Brewer不当作另一个硕士学位，2004为荣誉学位。",
+    "巴特勒采用亨廷顿指南，未复制小说或私信；就读不等于毕业，档案入藏不等于开放版权。",
+    "布尔乔亚采用MoMA生平及目录，1982回顾展不扩大为该馆首次女性回顾展，印张数不当作独立构图数。",
+    "伯勒斯出生年份仅约数，不确定教职被拒原因不作定论；1928建筑属学校历程。",
+    "沙拉维采用SOAS 2015研究论文第52及54页（PDF第7及9页）核对罗马大会与联盟主席，AUC只证明档案范围；出版社书页缺少传记正文不作为事实证据；杂志日期未采纳。",
+    "科赫采用已返回通报，328天纪录限定2020语境；不推断阿尔忒弥斯后续任务，六次出舱与驻留时长分开。",
+    "一次NASA按旧引用ID翻页返回Internal Error且误映射Biocon空URL，已用完整NASA URL重新打开258行并读取正文，未把失败返回当作证据。"
+  ],
+  "evidence": [
+    {
+      "slug": "ingrid-daubechies",
+      "sources": [
+        {
+          "title": "Duke Today：Of Heartbeats, Bones and Brushstrokes",
+          "url": "https://www.today.duke.edu/2016/08/daubechies",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "IMU：2011至2014年领导名单",
+          "url": "https://www.mathunion.org/organization/imu-representatives/imu-leadership-2011-2014",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1980年完成博士研究，随后在小波理论及数字图像处理方面开展研究。",
+          "sourceUrls": [
+            "https://www.today.duke.edu/2016/08/daubechies"
+          ]
+        },
+        {
+          "claim": "2011至2014年担任国际数学联盟主席。",
+          "sourceUrls": [
+            "https://www.mathunion.org/organization/imu-representatives/imu-leadership-2011-2014"
+          ]
+        }
+      ],
+      "summaryLength": 141,
+      "storyLength": 386
+    },
+    {
+      "slug": "vera-rubin",
+      "sources": [
+        {
+          "title": "Carnegie Science：Who was Vera Rubin?",
+          "url": "https://carnegiescience.edu/news/who-was-vera-rubin",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1965年加入卡内基地磁系，成为该部门首位女性专职科学家。",
+          "sourceUrls": [
+            "https://carnegiescience.edu/news/who-was-vera-rubin"
+          ]
+        },
+        {
+          "claim": "与肯特·福特于1970年发表仙女座星系旋转研究，后续观测为暗物质提供证据。",
+          "sourceUrls": [
+            "https://carnegiescience.edu/news/who-was-vera-rubin"
+          ]
+        }
+      ],
+      "summaryLength": 141,
+      "storyLength": 383
+    },
+    {
+      "slug": "rebecca-lee-crumpler",
+      "sources": [
+        {
+          "title": "National Library of Medicine：Rebecca Lee Crumpler传记",
+          "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_rebecca_crumpler.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1864年成为美国首位获得医学博士学位的非裔女性。",
+          "sourceUrls": [
+            "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_rebecca_crumpler.html"
+          ]
+        },
+        {
+          "claim": "1883年出版医学著作A Book of Medical Discourses。",
+          "sourceUrls": [
+            "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_rebecca_crumpler.html"
+          ]
+        }
+      ],
+      "summaryLength": 137,
+      "storyLength": 393
+    },
+    {
+      "slug": "allyson-felix",
+      "sources": [
+        {
+          "title": "International Olympic Committee：Allyson Felix官方档案",
+          "url": "https://www.olympics.com/ioc/ms-allyson-felix",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "伦敦2012奥运会获得三枚金牌，里约2016获得两枚金牌。",
+          "sourceUrls": [
+            "https://www.olympics.com/ioc/ms-allyson-felix"
+          ]
+        },
+        {
+          "claim": "参加雅典2004至东京2020五届奥运会，官方逐届记录合计十一枚奖牌。",
+          "sourceUrls": [
+            "https://www.olympics.com/ioc/ms-allyson-felix"
+          ]
+        }
+      ],
+      "summaryLength": 139,
+      "storyLength": 380
+    },
+    {
+      "slug": "kiran-mazumdar-shaw",
+      "sources": [
+        {
+          "title": "Federation University：Kiran Mazumdar-Shaw奖学金与校友简介",
+          "url": "https://www.federation.edu.au/study/scholarships/details/foundation-scholarships/kiran-mazumdar-shaw-scholarship",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1975年在巴拉瑞特高等教育学院完成麦芽与酿造研究生文凭。",
+          "sourceUrls": [
+            "https://www.federation.edu.au/study/scholarships/details/foundation-scholarships/kiran-mazumdar-shaw-scholarship"
+          ]
+        },
+        {
+          "claim": "2004年获澳大利亚联邦大学前身体系授予荣誉理学博士，2015年校园道路以她命名。",
+          "sourceUrls": [
+            "https://www.federation.edu.au/study/scholarships/details/foundation-scholarships/kiran-mazumdar-shaw-scholarship"
+          ]
+        }
+      ],
+      "summaryLength": 142,
+      "storyLength": 397
+    },
+    {
+      "slug": "octavia-butler",
+      "sources": [
+        {
+          "title": "The Huntington：Octavia E. Butler研究指南",
+          "url": "https://researchguides.huntington.org/oeb",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1976年出版首部长篇小说Patternmaster。",
+          "sourceUrls": [
+            "https://researchguides.huntington.org/oeb"
+          ]
+        },
+        {
+          "claim": "1995年获得麦克阿瑟奖。",
+          "sourceUrls": [
+            "https://researchguides.huntington.org/oeb"
+          ]
+        }
+      ],
+      "summaryLength": 145,
+      "storyLength": 426
+    },
+    {
+      "slug": "louise-bourgeois",
+      "sources": [
+        {
+          "title": "MoMA：Louise Bourgeois传记",
+          "url": "https://lb.moma.org/about/biography",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "MoMA：版画与书籍全集目录使用指南",
+          "url": "https://lb.moma.org/guide",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1938年从巴黎迁居纽约，早期创作包括绘画和版画，四十年代后期转向雕塑。",
+          "sourceUrls": [
+            "https://lb.moma.org/about/biography"
+          ]
+        },
+        {
+          "claim": "1982年在纽约现代艺术博物馆举办回顾展。",
+          "sourceUrls": [
+            "https://lb.moma.org/about/biography"
+          ]
+        }
+      ],
+      "summaryLength": 139,
+      "storyLength": 379
+    },
+    {
+      "slug": "nannie-helen-burroughs",
+      "sources": [
+        {
+          "title": "National Park Service：National Training School及Trades Hall历史",
+          "url": "https://www.nps.gov/places/national-training-school-for-women-and-girls.htm",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "National Park Service：Nannie Helen Burroughs人物档案",
+          "url": "https://www.nps.gov/people/nannie-helen-burroughs.htm",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1909年推动在华盛顿开办National Training School for Women and Girls。",
+          "sourceUrls": [
+            "https://www.nps.gov/places/national-training-school-for-women-and-girls.htm"
+          ]
+        },
+        {
+          "claim": "其学校的Trades Hall于1928年建成，设有教室及印刷作坊等设施。",
+          "sourceUrls": [
+            "https://www.nps.gov/places/national-training-school-for-women-and-girls.htm"
+          ]
+        }
+      ],
+      "summaryLength": 144,
+      "storyLength": 387
+    },
+    {
+      "slug": "huda-shaarawi",
+      "sources": [
+        {
+          "title": "SOAS Journal of Postgraduate Research：Julia Lisiecka论Huda Shaarawi回忆录，2015，第52至54页",
+          "url": "https://www.soas.ac.uk/sites/default/files/2022-06/05%20Rereading%20Huda%20Shaarawis%20Harem%20Years%20Bargaining%20with%20the%20Patriarchy%20in%20the%20Changing%20Egypt%20file102674.pdf",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "AUC Libraries：埃及社会、艺术与文化档案",
+          "url": "https://library.aucegypt.edu/rare-books-special-collections/collections/egyptian-society-arts-culture",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1923年成为埃及女权联盟首任主席。",
+          "sourceUrls": [
+            "https://www.soas.ac.uk/sites/default/files/2022-06/05%20Rereading%20Huda%20Shaarawis%20Harem%20Years%20Bargaining%20with%20the%20Patriarchy%20in%20the%20Changing%20Egypt%20file102674.pdf"
+          ]
+        },
+        {
+          "claim": "1923年前往罗马参加国际妇女参政权联盟大会。",
+          "sourceUrls": [
+            "https://www.soas.ac.uk/sites/default/files/2022-06/05%20Rereading%20Huda%20Shaarawis%20Harem%20Years%20Bargaining%20with%20the%20Patriarchy%20in%20the%20Changing%20Egypt%20file102674.pdf"
+          ]
+        }
+      ],
+      "summaryLength": 138,
+      "storyLength": 375
+    },
+    {
+      "slug": "christina-koch",
+      "sources": [
+        {
+          "title": "NASA：2020年2月6日科赫与乘组返回地球通报",
+          "url": "https://www.nasa.gov/news-release/record-setting-nasa-astronaut-crewmates-return-from-space-station/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2019年3月14日发射，2020年2月6日返回，首次太空飞行持续328天。",
+          "sourceUrls": [
+            "https://www.nasa.gov/news-release/record-setting-nasa-astronaut-crewmates-return-from-space-station/"
+          ]
+        },
+        {
+          "claim": "此次任务期间进行了六次太空行走，包括最初三次全女性太空行走。",
+          "sourceUrls": [
+            "https://www.nasa.gov/news-release/record-setting-nasa-astronaut-crewmates-return-from-space-station/"
+          ]
+        }
+      ],
+      "summaryLength": 140,
+      "storyLength": 397
+    }
+  ]
+}

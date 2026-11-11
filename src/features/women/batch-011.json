@@ -1,0 +1,354 @@
+{
+  "batch": "011",
+  "previousBatch": "010",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "mary-cartwright",
+    "donna-strickland",
+    "katalin-kariko",
+    "yusra-mardini",
+    "melanie-perkins",
+    "pearl-buck",
+    "elizabeth-catlett",
+    "charlotte-hawkins-brown",
+    "ruth-bader-ginsburg",
+    "ann-bancroft"
+  ],
+  "reusedCandidates": [],
+  "newRecords": 10,
+  "failures": [
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/2018/strickland/facts/",
+      "outcome": "403 Forbidden，改用滑铁卢大学正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/2023/kariko/facts/",
+      "outcome": "403 Forbidden，改用Penn Medicine正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1938/buck/biographical/",
+      "outcome": "403 Forbidden，改用Pearl S. Buck International正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.supremecourt.gov/about/biographyginsburg.aspx",
+      "outcome": "重定向PageNotFound错误页，改用最高法院2020生平通报；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.unhcr.org/about-unhcr/our-partners/prominent-supporters/goodwill-ambassadors/yusra-mardini",
+      "outcome": "429 Too Many Requests；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.unhcr.org/us/news/stories/syrian-swimmer-yusra-mardini-appointed-unhcr-goodwill-ambassador",
+      "outcome": "429 Too Many Requests；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "url": "https://www.unhcr.org/asia/news/press-releases/yusra-mardini-appointed-unhcr-goodwill-ambassador",
+      "outcome": "429 Too Many Requests；改用IOC正文；未作为正文证据",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "已读取批次010报告，排除原有92位；本批十领域各新增1位。原有92条写入前后逐条比对未变。",
+    "全部verified但未发布、未精选；所有第三方图片许可未核实，使用HerSpace原创占位图。",
+    "卡特赖特学院院长任期采用Girton 1949–1968，不合并MacTutor任命1948口径；MacTutor学会主席任期正文与列表不一致，未采用；不扩大为唯一建立混沌理论。",
+    "斯特里克兰1985论文与1989博士分开；应用不等于个人发明所有设备，不写研究中老花治疗为已实现。",
+    "卡里科论文、平台、企业开发和临床验证分开，来源披露许可利益；未来疾病治疗前景不作事实，不采用接种总数。",
+    "马尔迪尼以IOC正文核实参赛、任命与自传，未复制海上场景、未采纳官网旧全球难民数与东京未来计划，不推断现时国籍或难民身份。",
+    "珀金斯两项事实分别映射2007产品公告与2013上线公告；历史融资、上线与估值不混同，团队工作不全归个人，未采用现时价格与市场宣传。",
+    "赛珍珠机构页面Welcome House旧正文称仍在运行，但更正指2014结束，采用更正；不从小说推断个人经历，不采用旧医疗描述。",
+    "卡特利特页面保留旧现在时传记，按生卒信息2012去世；艺术家与惠特利不混淆，作品图有遗产方版权与VAGA许可，未下载。",
+    "霍金斯·布朗本人、帕尔默和继任克罗森分开；NPS为2010旧展览公告，不当作当前开放信息；1987纪念场所不写成其在世活动。",
+    "金斯伯格采用最高法院2020生平通报，不从搜索摘要或2023悼文的June1993口径确定就职日，不复制私人引语。",
+    "班克罗夫特与同名演员Anne Bancroft区分；到极点、跨冰面和大陆穿越分开，2001采用滑雪和帆助，不简化为单独徒步。",
+    "进程检查初次受沙箱限制，提权只读检查后发现原有Next开发服务器与另一Codex CLI，保留进程；不能仅凭进程推断其任务内容，未见新的批次文件，未改动原有页面功能。"
+  ],
+  "evidence": [
+    {
+      "slug": "mary-cartwright",
+      "sources": [
+        {
+          "title": "Girton College：Mary Cartwright学院历史",
+          "url": "https://www.girton.cam.ac.uk/pioneering-history/girton-community",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "MacTutor：Mary Cartwright数学史传记",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cartwright/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1947年成为首位当选英国皇家学会会士的女性数学家。",
+          "sourceUrls": [
+            "https://www.girton.cam.ac.uk/pioneering-history/girton-community"
+          ]
+        },
+        {
+          "claim": "1949至1968年担任格顿学院院长，1968年获德摩根奖章。",
+          "sourceUrls": [
+            "https://www.girton.cam.ac.uk/pioneering-history/girton-community"
+          ]
+        }
+      ],
+      "summaryLength": 141,
+      "storyLength": 376
+    },
+    {
+      "slug": "donna-strickland",
+      "sources": [
+        {
+          "title": "University of Waterloo：Donna Strickland官方履历",
+          "url": "https://uwaterloo.ca/physics-astronomy/profile/strickla",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1985年与热拉尔·穆鲁发表啁啾脉冲放大研究。",
+          "sourceUrls": [
+            "https://uwaterloo.ca/physics-astronomy/profile/strickla"
+          ]
+        },
+        {
+          "claim": "2018年因高强度超短光脉冲相关方法获得诺贝尔物理学奖。",
+          "sourceUrls": [
+            "https://uwaterloo.ca/physics-astronomy/profile/strickla"
+          ]
+        }
+      ],
+      "summaryLength": 140,
+      "storyLength": 385
+    },
+    {
+      "slug": "katalin-kariko",
+      "sources": [
+        {
+          "title": "Penn Medicine：Karikó与Weissman获2023年诺贝尔奖公告",
+          "url": "https://www.pennmedicine.org/news/katalin-kariko-and-drew-weissman-win-2023-nobel-prize-in-medicine",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2005年与德鲁·魏斯曼发表关于修饰mRNA的关键研究。",
+          "sourceUrls": [
+            "https://www.pennmedicine.org/news/katalin-kariko-and-drew-weissman-win-2023-nobel-prize-in-medicine"
+          ]
+        },
+        {
+          "claim": "与德鲁·魏斯曼共同获得2023年诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://www.pennmedicine.org/news/katalin-kariko-and-drew-weissman-win-2023-nobel-prize-in-medicine"
+          ]
+        }
+      ],
+      "summaryLength": 142,
+      "storyLength": 399
+    },
+    {
+      "slug": "yusra-mardini",
+      "sources": [
+        {
+          "title": "International Olympic Committee：Yusra Mardini论坛人物档案",
+          "url": "https://www.olympics.com/ioc/olympism-in-action/speakers/yusra-mardini",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "作为首届难民奥运代表队成员参加里约2016奥运会。",
+          "sourceUrls": [
+            "https://www.olympics.com/ioc/olympism-in-action/speakers/yusra-mardini"
+          ]
+        },
+        {
+          "claim": "2017年获任联合国难民署亲善大使，2018年出版自传Butterfly。",
+          "sourceUrls": [
+            "https://www.olympics.com/ioc/olympism-in-action/speakers/yusra-mardini"
+          ]
+        }
+      ],
+      "summaryLength": 139,
+      "storyLength": 388
+    },
+    {
+      "slug": "melanie-perkins",
+      "sources": [
+        {
+          "title": "Canva：2013年种子融资与创办团队公告",
+          "url": "https://www.canva.com/newsroom/news/aussie-startup-canva-announces-3-million-seed-round-world-class-investors/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Canva：2013年8月26日上线公告",
+          "url": "https://www.canva.com/newsroom/news/canva-makes-graphic-design-amazingly-simple-everyone/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Canva：2023年十周年时间线",
+          "url": "https://www.canva.com/newsroom/news/canva-10-year-timeline/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "与克利夫·奥布雷希特于2007年推出学校年鉴设计产品Fusion Books。",
+          "sourceUrls": [
+            "https://www.canva.com/newsroom/news/aussie-startup-canva-announces-3-million-seed-round-world-class-investors/"
+          ]
+        },
+        {
+          "claim": "作为Canva创办团队成员及当时CEO，参与2013年上线的在线设计平台。",
+          "sourceUrls": [
+            "https://www.canva.com/newsroom/news/canva-makes-graphic-design-amazingly-simple-everyone/",
+            "https://www.canva.com/newsroom/news/aussie-startup-canva-announces-3-million-seed-round-world-class-investors/"
+          ]
+        }
+      ],
+      "summaryLength": 150,
+      "storyLength": 401
+    },
+    {
+      "slug": "pearl-buck",
+      "sources": [
+        {
+          "title": "Pearl S. Buck International：创办人生平",
+          "url": "https://pearlsbuck.org/about/biography/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "小说The Good Earth于1932年获得普利策奖。",
+          "sourceUrls": [
+            "https://pearlsbuck.org/about/biography/"
+          ]
+        },
+        {
+          "claim": "1938年获得诺贝尔文学奖。",
+          "sourceUrls": [
+            "https://pearlsbuck.org/about/biography/"
+          ]
+        }
+      ],
+      "summaryLength": 138,
+      "storyLength": 407
+    },
+    {
+      "slug": "elizabeth-catlett",
+      "sources": [
+        {
+          "title": "Smithsonian American Art Museum：Elizabeth Catlett人物与作品教学档案",
+          "url": "https://americanart.si.edu/education/oh-freedom/elizabeth-catlett",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1946年前往墨西哥，加入大众版画工作坊Taller de Gráfica Popular。",
+          "sourceUrls": [
+            "https://americanart.si.edu/education/oh-freedom/elizabeth-catlett"
+          ]
+        },
+        {
+          "claim": "1973年创作青铜与木材作品Phillis Wheatley。",
+          "sourceUrls": [
+            "https://americanart.si.edu/education/oh-freedom/elizabeth-catlett"
+          ]
+        }
+      ],
+      "summaryLength": 141,
+      "storyLength": 379
+    },
+    {
+      "slug": "charlotte-hawkins-brown",
+      "sources": [
+        {
+          "title": "NC Historic Sites：Charlotte Hawkins Brown与Palmer Memorial Institute历史",
+          "url": "https://historicsites.nc.gov/all-sites/charlotte-hawkins-brown-museum/history/dr-charlotte-hawkins-brown",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "National Park Service：Palmer Memorial Institute展览历史介绍",
+          "url": "https://www.nps.gov/brvb/learn/news/palmermemorial.htm",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1902年创办Palmer Memorial Institute，领导学校五十年至1952年退休。",
+          "sourceUrls": [
+            "https://historicsites.nc.gov/all-sites/charlotte-hawkins-brown-museum/history/dr-charlotte-hawkins-brown"
+          ]
+        },
+        {
+          "claim": "1940年出版The Correct Thing to Do, to Say, to Wear。",
+          "sourceUrls": [
+            "https://historicsites.nc.gov/all-sites/charlotte-hawkins-brown-museum/history/dr-charlotte-hawkins-brown"
+          ]
+        }
+      ],
+      "summaryLength": 140,
+      "storyLength": 412
+    },
+    {
+      "slug": "ruth-bader-ginsburg",
+      "sources": [
+        {
+          "title": "Supreme Court of the United States：2020年9月18日生平通报",
+          "url": "https://www.supremecourt.gov/publicinfo/press/pressreleases/pr_09-18-20",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1980年获任美国哥伦比亚特区巡回上诉法院法官。",
+          "sourceUrls": [
+            "https://www.supremecourt.gov/publicinfo/press/pressreleases/pr_09-18-20"
+          ]
+        },
+        {
+          "claim": "1993年获任美国最高法院大法官，是该院第二位女性大法官，任职至2020年。",
+          "sourceUrls": [
+            "https://www.supremecourt.gov/publicinfo/press/pressreleases/pr_09-18-20"
+          ]
+        }
+      ],
+      "summaryLength": 141,
+      "storyLength": 387
+    },
+    {
+      "slug": "ann-bancroft",
+      "sources": [
+        {
+          "title": "Ann Bancroft Foundation：Ann Bancroft官方生平与探险时间线",
+          "url": "https://www.annbancroftfoundation.org/about/ann-bancroft",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1986年作为斯特格国际极地探险队成员跨冰面抵达北极点。",
+          "sourceUrls": [
+            "https://www.annbancroftfoundation.org/about/ann-bancroft"
+          ]
+        },
+        {
+          "claim": "1993年率四名女性组成的队伍，以六十七天滑雪行程抵达南极点。",
+          "sourceUrls": [
+            "https://www.annbancroftfoundation.org/about/ann-bancroft"
+          ]
+        }
+      ],
+      "summaryLength": 143,
+      "storyLength": 404
+    }
+  ]
+}

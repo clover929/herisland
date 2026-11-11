@@ -1,0 +1,85 @@
+.hi-glass-filter-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hi-glass-card {
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+  --spotlight-opacity: 0;
+  --hi-rotate-x: 0deg;
+  --hi-rotate-y: 0deg;
+  position: relative;
+  isolation: isolate;
+  border: 1px solid var(--hi-glass-border);
+  border-radius: var(--hi-radius-xl);
+  background: var(--hi-glass-fill);
+  box-shadow: var(--hi-shadow-inset-highlight), var(--hi-shadow-card);
+  -webkit-backdrop-filter: blur(var(--hi-glass-blur)) saturate(1.14);
+  backdrop-filter: blur(var(--hi-glass-blur)) saturate(1.14);
+}
+
+.hi-glass-card::before,
+.hi-glass-card::after {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  content: "";
+}
+
+/* The SVG filter affects only this thin edge highlight, never readable content. */
+.hi-glass-card::before {
+  border: 1px solid rgb(255 255 255 / 58%);
+  filter: url("#hi-glass-edge-refraction");
+  opacity: 0.8;
+}
+
+.hi-spotlight-card::after {
+  z-index: -1;
+  background: radial-gradient(circle 200px at var(--mouse-x) var(--mouse-y), rgb(255 255 255 / 30%) 0%, rgb(255 255 255 / 12%) 40%, transparent 100%);
+  opacity: var(--spotlight-opacity);
+  transition: opacity var(--hi-motion-slow) ease;
+}
+
+.hi-glass-card:focus-within {
+  outline: var(--hi-focus-width) solid var(--hi-focus-color);
+  outline-offset: var(--hi-focus-offset);
+  box-shadow: var(--hi-shadow-inset-highlight), var(--hi-shadow-raised), 0 0 0 5px rgb(255 255 255 / 68%);
+}
+
+.hi-tilt-card {
+  transform: perspective(var(--hi-motion-perspective)) rotateX(var(--hi-rotate-x)) rotateY(var(--hi-rotate-y));
+  transform-style: preserve-3d;
+  transition: transform var(--hi-motion-slow) var(--hi-motion-ease), box-shadow var(--hi-motion-base) var(--hi-motion-ease);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .hi-glass-card {
+    background: var(--hi-glass-fill-fallback);
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .hi-spotlight-card::after {
+    display: none;
+  }
+
+  .hi-tilt-card {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hi-spotlight-card::after,
+  .hi-tilt-card {
+    transition-duration: 1ms;
+  }
+
+  .hi-tilt-card {
+    transform: none;
+  }
+}

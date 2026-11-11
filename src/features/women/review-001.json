@@ -1,0 +1,355 @@
+{
+  "batch": "review-001",
+  "checkedAt": "2026-11-09",
+  "directoryCount": 102,
+  "slugs": [
+    "marie-curie",
+    "tu-youyou",
+    "ada-lovelace",
+    "katherine-johnson",
+    "rosalind-franklin",
+    "jane-goodall",
+    "wang-zhenyi",
+    "grace-hopper",
+    "chien-shiung-wu",
+    "sally-ride"
+  ],
+  "published": 10,
+  "featured": 8,
+  "remainingReview": 92,
+  "failures": [],
+  "evidence": [
+    {
+      "slug": "marie-curie",
+      "facts": [
+        {
+          "claim": "物理学家、化学家；与皮埃尔·居里、贝克勒尔共享1903年诺贝尔物理学奖。",
+          "sourceUrls": [
+            "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+          ]
+        },
+        {
+          "claim": "物理学家、化学家；1911年获得诺贝尔化学奖。",
+          "sourceUrls": [
+            "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Science History Institute：Marie Sklodowska Curie",
+          "url": "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "未采用来源中需要进一步医学史复核的死因表述。",
+        "此处不采用来源中可能需要进一步医学史核对的死因表述，也不从获奖结果倒推她的个人动机。"
+      ],
+      "storyLength": 329
+    },
+    {
+      "slug": "tu-youyou",
+      "facts": [
+        {
+          "claim": "1955年药学专业毕业并进入中医研究机构工作。",
+          "sourceUrls": [
+            "https://www.nosta.gov.cn/pc/en/awards/awardees1/1456.shtml"
+          ]
+        },
+        {
+          "claim": "与团队分离青蒿素并验证其抗疟临床效果。",
+          "sourceUrls": [
+            "https://www.nosta.gov.cn/pc/en/awards/awardees1/1456.shtml"
+          ]
+        },
+        {
+          "claim": "2015年获得诺贝尔生理学或医学奖。",
+          "sourceUrls": [
+            "https://www.nosta.gov.cn/pc/en/awards/awardees1/1456.shtml",
+            "https://english.pku.edu.cn/news_events/news/focus/3964.html"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "国家科技奖励工作办公室：Tu Youyou",
+          "url": "https://www.nosta.gov.cn/pc/en/awards/awardees1/1456.shtml",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "这里呈现的是有档案支持的教育、实验与获奖脉络，不将药物研发简化成某一次灵感，也不补写研究者未被资料证实的私人动机。"
+      ],
+      "storyLength": 341
+    },
+    {
+      "slug": "ada-lovelace",
+      "facts": [
+        {
+          "claim": "1843年翻译梅纳布雷亚介绍分析机的论文并增加笔记。",
+          "sourceUrls": [
+            "https://www.theiet.org/membership/library-and-archives/the-iet-archives/biographies/ada-countess-of-lovelace"
+          ]
+        },
+        {
+          "claim": "笔记中包含被IET称为最早计算机程序之一的方案。",
+          "sourceUrls": [
+            "https://www.theiet.org/membership/library-and-archives/the-iet-archives/biographies/ada-countess-of-lovelace"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "IET：Ada Countess of Lovelace",
+          "url": "https://www.theiet.org/membership/library-and-archives/the-iet-archives/biographies/ada-countess-of-lovelace",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "“最早计算机程序之一”沿用IET的限定表述，不宣称已经运行建成的现代计算机。",
+        "这里沿用这一有限表述，不把后来形成的程序员职业身份完整套用到当时，也不声称她已经运行了一台建成的现代计算机。",
+        "本档案只记录有来源的学习与写作活动，不用未经证实的名言或个人动机解释她的贡献。"
+      ],
+      "storyLength": 360
+    },
+    {
+      "slug": "katherine-johnson",
+      "facts": [
+        {
+          "claim": "1953年进入NACA兰利实验室工作，职业为数学家。",
+          "sourceUrls": [
+            "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+          ]
+        },
+        {
+          "claim": "为1961年艾伦·谢泼德的 Freedom 7 任务进行轨迹分析。",
+          "sourceUrls": [
+            "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+          ]
+        },
+        {
+          "claim": "在1962年约翰·格伦 Friendship 7 飞行前手工复核轨道计算。",
+          "sourceUrls": [
+            "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA：Katherine Johnson Biography",
+          "url": "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "不同NASA页面的论文总数不同，未采用累计论文数。",
+        "档案之外的对话和个人心理不在此补写，研究报告数量在不同NASA页面存在差异，本档案暂不采用该数字。"
+      ],
+      "storyLength": 339
+    },
+    {
+      "slug": "rosalind-franklin",
+      "facts": [
+        {
+          "claim": "与研究学生雷蒙德·戈斯林取得1952年5月的DNA 51号照片。",
+          "sourceUrls": [
+            "https://www.kcl.ac.uk/people/rosalind-franklin"
+          ]
+        },
+        {
+          "claim": "1953年离开国王学院后，在伯克贝克学院建立病毒结构研究团队。",
+          "sourceUrls": [
+            "https://www.kcl.ac.uk/people/rosalind-franklin"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "King’s College London：Rosalind Franklin档案",
+          "url": "https://www.kcl.ac.uk/people/rosalind-franklin",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "两个校方页面的入职年份有差异，未将具体入职年写入时间线。",
+        "国王学院档案也明确将戈斯林列入研究过程，因此本档案保留共同工作的表述，不把全部实验过程缩成一个人独自拍照的故事。",
+        "关于照片如何被其他研究者看到，校方有相关历史说明，但这里不增加未见资料支持的私人对话。",
+        "两篇校方页面对加入国王学院的年份表述不同，本批未采用具体入职年份；档案仅保留能够一致确认的实验、合作与研究方向，避免用荣誉归属争论代替科学工作本身。"
+      ],
+      "storyLength": 356
+    },
+    {
+      "slug": "jane-goodall",
+      "facts": [
+        {
+          "claim": "1960年7月14日抵达贡贝开展黑猩猩研究，观察到黑猩猩使用工具。",
+          "sourceUrls": [
+            "https://janegoodall.org/remembering-jane/"
+          ]
+        },
+        {
+          "claim": "1977年创办珍·古道尔研究会。",
+          "sourceUrls": [
+            "https://janegoodall.org/remembering-jane/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jane Goodall Institute：纪念与生平档案",
+          "url": "https://janegoodall.org/remembering-jane/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "本档案采用该机构的纪念资料，避免把早期传记中的旅行日程或职位表述当作现状；不补写丛林中的对话与动机，也不将整个组织的长期成果归为她个人单独完成。"
+      ],
+      "storyLength": 309
+    },
+    {
+      "slug": "wang-zhenyi",
+      "facts": [
+        {
+          "claim": "撰写《月食解》，用自绘图解释月相和月食。",
+          "sourceUrls": [
+            "https://hk.space.museum/en/web/spm/resources/curators-blog/2021/03/wang-zhenyi-an-extraordinary-woman-astronomer-from-the-qing-dynasty.html"
+          ]
+        },
+        {
+          "claim": "部分数学、天文作品保存于《德风亭初集》，包括勾股与三角相关讨论。",
+          "sourceUrls": [
+            "https://hk.space.museum/en/web/spm/resources/curators-blog/2021/03/wang-zhenyi-an-extraordinary-woman-astronomer-from-the-qing-dynasty.html"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hong Kong Space Museum：清代女天文学家王贞仪",
+          "url": "https://hk.space.museum/en/web/spm/resources/curators-blog/2021/03/wang-zhenyi-an-extraordinary-woman-astronomer-from-the-qing-dynasty.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "无确切年份的著述不补造时间线日期；不要与同名现代医学研究者混淆。",
+        "她1797年去世，许多著作后来散失，因此本档案没有依据网络流传的作品数量构造完整书目，也不增写具体实验场景。",
+        "这里采用博物馆能够支持的生卒、作品与研究主题，未将当时的学术表达改写成未经核对的现代定理首创权或国际获奖经历。"
+      ],
+      "storyLength": 336
+    },
+    {
+      "slug": "grace-hopper",
+      "facts": [
+        {
+          "claim": "1934年获得耶鲁大学数学博士学位。",
+          "sourceUrls": [
+            "https://president.yale.edu/biography-grace-murray-hopper"
+          ]
+        },
+        {
+          "claim": "1952年开发A-0自动编程系统。",
+          "sourceUrls": [
+            "https://president.yale.edu/biography-grace-murray-hopper"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yale：Grace Murray Hopper传记",
+          "url": "https://president.yale.edu/biography-grace-murray-hopper",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "A-0的历史编译器称谓不等同于今天所有编译工具的定义。",
+        "A-0在早期计算史中的编译器称谓也与今天的工具定义存在语境差异，本档案保留系统名称和年份，不据此扩展未经核实的技术优先权断言。",
+        "这里没有补写实验室对白、名言或个人动机。"
+      ],
+      "storyLength": 308
+    },
+    {
+      "slug": "chien-shiung-wu",
+      "facts": [
+        {
+          "claim": "1956年至1957年初与同事完成检验弱相互作用宇称对称性的实验。",
+          "sourceUrls": [
+            "https://www.c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html"
+          ]
+        },
+        {
+          "claim": "1978年获得首届沃尔夫物理学奖。",
+          "sourceUrls": [
+            "https://www.c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Columbia：Chien-Shiung Wu校史档案",
+          "url": "https://www.c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "本档案采用可核对的教育、实验和出版记录，不把诺贝尔奖归属争议转换成未有证据的私人心理描写，也不采用尚未在本批另行交叉核对的学会任职年份。"
+      ],
+      "storyLength": 316
+    },
+    {
+      "slug": "sally-ride",
+      "facts": [
+        {
+          "claim": "宇航员、物理学家；1983年6月18日执行STS-7任务，成为首位进入太空的美国女性。",
+          "sourceUrls": [
+            "https://science.nasa.gov/people/sally-ride/"
+          ]
+        },
+        {
+          "claim": "宇航员、物理学家；1984年执行STS-41G航天飞机任务。",
+          "sourceUrls": [
+            "https://science.nasa.gov/people/sally-ride/"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "NASA Science：Sally Ride人物档案",
+          "url": "https://science.nasa.gov/people/sally-ride/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "reviewedAt": "2026-11-09",
+      "editorialNotes": [
+        "本页为机构资料的中文编辑整理；代表事实与时间线分别关联来源。未采用无法确认的私人对话、个人动机和图像授权。",
+        "NASA页面对离开机构年份有不同口径，未采用；首位美国女性不等同于世界首位。",
+        "上述经历依据NASA公开档案整理，不复写其中的采访对白，也不添加发射时的私人心理描写；涉及具体职务和任务的事实与对应来源一并保留。"
+      ],
+      "storyLength": 347
+    }
+  ],
+  "notes": [
+    "复用既有102位目录，本轮不新增人物。",
+    "全量schema与唯一性验证；仅首批10位本轮重读机构正文并审核发布，其他92位不声称已重新逐人复核。",
+    "所有图片均为项目原创占位图，不声称拥有真人肖像授权。",
+    "时间线只整理已绑定来源且年份无歧义的事实；不将最早年份自动作为跨年事件日期。",
+    "首批正文移除研究流程句，边界说明另存editorialNotes；补充仅来自本轮已读机构正文的工作脉络。"
+  ]
+}

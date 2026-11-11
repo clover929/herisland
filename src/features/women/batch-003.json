@@ -1,0 +1,326 @@
+{
+  "batch": "003",
+  "previousBatch": "002",
+  "checkedAt": "2026-11-09",
+  "slugs": [
+    "ada-lovelace",
+    "rosalind-franklin",
+    "florence-nightingale",
+    "wilma-rudolph",
+    "estee-lauder",
+    "jane-austen",
+    "georgia-okeeffe",
+    "malala-yousafzai",
+    "eleanor-roosevelt",
+    "mae-jemison"
+  ],
+  "reusedCandidates": [
+    "ada-lovelace",
+    "rosalind-franklin"
+  ],
+  "newRecords": 8,
+  "failures": [
+    {
+      "url": "https://www.un.org/en/messengers-peace/malala-yousafzai",
+      "outcome": "403 Forbidden；采用已读取的Malala Fund正文",
+      "checkedAt": "2026-11-09"
+    }
+  ],
+  "notes": [
+    "除联合国马拉拉页面403外，其余采用来源均已读取正文。",
+    "富兰克林国王学院人物页称1951–53，专题称1950加入；不写入具体入职年份。",
+    "奥斯汀传记页查找1811无匹配，改读同馆时间线确认出版日期；《爱玛》1815实际发行与1816书面年份不在本批展开。",
+    "Malala Fund页面2013段落记建立基金，但2024段落标十周年；本批不据周年推算成立年份。",
+    "埃莉诺传记正文和时间线分别记1953/1952退出联合国代表团；不采用退出年份。",
+    "雅诗兰黛资料为公司自述，只采用具体创办、订单与经营活动，未复述广告语与心理评价。",
+    "NASA杰米森履历为1993年版本；不将其当作当前职位清单。",
+    "所有图像使用HerSpace原创占位图，无外部肖像授权声明；地区为生涯关联地区。"
+  ],
+  "evidence": [
+    {
+      "slug": "ada-lovelace",
+      "sources": [
+        {
+          "title": "IET：Ada Countess of Lovelace",
+          "url": "https://www.theiet.org/membership/library-and-archives/the-iet-archives/biographies/ada-countess-of-lovelace",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Clay Mathematics Institute：数学手稿",
+          "url": "https://www.claymath.org/online-resources/ada-lovelaces-mathematical-papers/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1843年翻译梅纳布雷亚介绍分析机的论文并增加笔记。",
+          "sourceUrls": [
+            "https://www.theiet.org/membership/library-and-archives/the-iet-archives/biographies/ada-countess-of-lovelace"
+          ]
+        },
+        {
+          "claim": "笔记中包含被IET称为最早计算机程序之一的方案。",
+          "sourceUrls": [
+            "https://www.theiet.org/membership/library-and-archives/the-iet-archives/biographies/ada-countess-of-lovelace"
+          ]
+        }
+      ],
+      "summaryLength": 122,
+      "storyLength": 383
+    },
+    {
+      "slug": "rosalind-franklin",
+      "sources": [
+        {
+          "title": "King’s College London：Rosalind Franklin档案",
+          "url": "https://www.kcl.ac.uk/people/rosalind-franklin",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "King’s College London：Photo 51专题",
+          "url": "https://www.kcl.ac.uk/photo-51-and-the-discovery-of-dna",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "与研究学生雷蒙德·戈斯林取得1952年5月的DNA 51号照片。",
+          "sourceUrls": [
+            "https://www.kcl.ac.uk/people/rosalind-franklin"
+          ]
+        },
+        {
+          "claim": "1953年离开国王学院后，在伯克贝克学院建立病毒结构研究团队。",
+          "sourceUrls": [
+            "https://www.kcl.ac.uk/people/rosalind-franklin"
+          ]
+        }
+      ],
+      "summaryLength": 125,
+      "storyLength": 394
+    },
+    {
+      "slug": "florence-nightingale",
+      "sources": [
+        {
+          "title": "Florence Nightingale Museum：人物传记",
+          "url": "https://www.florence-nightingale.co.uk/about-florence-nightingale/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "King’s College London：护理学院历史",
+          "url": "https://www.kcl.ac.uk/nmpc/about-us/history",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1860年在伦敦圣托马斯医院建立护理培训学校。",
+          "sourceUrls": [
+            "https://www.florence-nightingale.co.uk/about-florence-nightingale/"
+          ]
+        },
+        {
+          "claim": "使用统计图表说明军队健康问题并推动医疗卫生改革。",
+          "sourceUrls": [
+            "https://www.florence-nightingale.co.uk/about-florence-nightingale/"
+          ]
+        }
+      ],
+      "summaryLength": 121,
+      "storyLength": 370
+    },
+    {
+      "slug": "wilma-rudolph",
+      "sources": [
+        {
+          "title": "USA Track & Field：Wilma Rudolph运动员档案",
+          "url": "https://www.usatf.org/athlete-bios/wilma-rudolph",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1956年获奥运会女子4×100米接力铜牌。",
+          "sourceUrls": [
+            "https://www.usatf.org/athlete-bios/wilma-rudolph"
+          ]
+        },
+        {
+          "claim": "1960年罗马奥运会获女子100米、200米和4×100米接力金牌。",
+          "sourceUrls": [
+            "https://www.usatf.org/athlete-bios/wilma-rudolph"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 378
+    },
+    {
+      "slug": "estee-lauder",
+      "sources": [
+        {
+          "title": "The Estée Lauder Companies：创办人档案",
+          "url": "https://www.elcompanies.com/en/who-we-are/our-heritage/our-founder",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1946年与约瑟夫·兰黛共同创办公司。",
+          "sourceUrls": [
+            "https://www.elcompanies.com/en/who-we-are/our-heritage/our-founder"
+          ]
+        },
+        {
+          "claim": "1947年取得萨克斯第五大道百货的重要产品订单。",
+          "sourceUrls": [
+            "https://www.elcompanies.com/en/who-we-are/our-heritage/our-founder"
+          ]
+        }
+      ],
+      "summaryLength": 123,
+      "storyLength": 394
+    },
+    {
+      "slug": "jane-austen",
+      "sources": [
+        {
+          "title": "Jane Austen’s House：生平时间线",
+          "url": "https://janeaustens.house/jane-austen/timeline/",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "Jane Austen’s House：人物传记",
+          "url": "https://janeaustens.house/jane-austen/jane-austen-a-life/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "《理智与情感》于1811年出版，未署作者姓名。",
+          "sourceUrls": [
+            "https://janeaustens.house/jane-austen/timeline/"
+          ]
+        },
+        {
+          "claim": "《傲慢与偏见》于1813年出版。",
+          "sourceUrls": [
+            "https://janeaustens.house/jane-austen/timeline/"
+          ]
+        }
+      ],
+      "summaryLength": 127,
+      "storyLength": 366
+    },
+    {
+      "slug": "georgia-okeeffe",
+      "sources": [
+        {
+          "title": "Georgia O’Keeffe Museum：艺术家传记",
+          "url": "https://www.okeeffemuseum.org/about-georgia-okeeffe/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1916年由施蒂格利茨首次展出作品。",
+          "sourceUrls": [
+            "https://www.okeeffemuseum.org/about-georgia-okeeffe/"
+          ]
+        },
+        {
+          "claim": "1929年前往新墨西哥北部，1949年在当地定居。",
+          "sourceUrls": [
+            "https://www.okeeffemuseum.org/about-georgia-okeeffe/"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 371
+    },
+    {
+      "slug": "malala-yousafzai",
+      "sources": [
+        {
+          "title": "Malala Fund：Malala’s Story",
+          "url": "https://malala.org/malalas-story",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "2013年7月12日在联合国呼吁儿童获得教育机会。",
+          "sourceUrls": [
+            "https://malala.org/malalas-story"
+          ]
+        },
+        {
+          "claim": "2014年获得诺贝尔和平奖。",
+          "sourceUrls": [
+            "https://malala.org/malalas-story"
+          ]
+        }
+      ],
+      "summaryLength": 123,
+      "storyLength": 381
+    },
+    {
+      "slug": "eleanor-roosevelt",
+      "sources": [
+        {
+          "title": "FDR Presidential Library：Eleanor Roosevelt传记",
+          "url": "https://www.fdrlibrary.org/er-biography",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1945年受杜鲁门任命担任美国驻联合国代表。",
+          "sourceUrls": [
+            "https://www.fdrlibrary.org/er-biography"
+          ]
+        },
+        {
+          "claim": "担任人权委员会主席，参与推动1948年《世界人权宣言》。",
+          "sourceUrls": [
+            "https://www.fdrlibrary.org/er-biography"
+          ]
+        }
+      ],
+      "summaryLength": 124,
+      "storyLength": 385
+    },
+    {
+      "slug": "mae-jemison",
+      "sources": [
+        {
+          "title": "NASA：Mae C. Jemison官方履历PDF",
+          "url": "https://www.nasa.gov/wp-content/uploads/2019/09/jemison_mae.pdf",
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "title": "NASA：首位进入太空的非裔美国女性",
+          "url": "https://www.nasa.gov/image-article/mae-jemison-first-african-american-woman-space/",
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "facts": [
+        {
+          "claim": "1981年取得康奈尔大学医学学位。",
+          "sourceUrls": [
+            "https://www.nasa.gov/wp-content/uploads/2019/09/jemison_mae.pdf"
+          ]
+        },
+        {
+          "claim": "1992年9月12日至20日作为科学任务专家执行STS-47任务。",
+          "sourceUrls": [
+            "https://www.nasa.gov/wp-content/uploads/2019/09/jemison_mae.pdf"
+          ]
+        }
+      ],
+      "summaryLength": 131,
+      "storyLength": 403
+    }
+  ]
+}
