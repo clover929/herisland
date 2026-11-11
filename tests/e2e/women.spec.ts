@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
-import review from '../../src/features/women/review-001.json';
-import records from '../../src/features/women/candidates.json';
+import review from '../../src/features/women/review-001.json' with {type:'json'};
+import records from '../../src/features/women/candidates.json' with {type:'json'};
 test('首页保留虚构故事，精选八位并进入102位目录',async({page})=>{
  await page.goto('/');await expect(page.getByText('人物专题 · 虚构示例')).toBeVisible();
  await expect(page.getByRole('region',{name:'精选真实女性人物'}).locator('.woman-card')).toHaveCount(8);

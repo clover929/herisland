@@ -10,7 +10,7 @@ export async function POST(request:Request){
  const timer=setTimeout(()=>{timeout=true;controller.abort()},90000);
  try{
  if(!allowedOrigin(request))throw new AIError('ORIGIN','不允许跨站请求',403);
- if(process.env.VERCEL==='1')throw new AIError('CLOUD_AI_NOT_CONFIGURED','公网版本尚未配置云端AI，本机Ollama无法从Vercel访问。',503);
+ if((process.env.VERCEL==='1'||process.env.HERISLAND_HOSTED_DEMO==='1'))throw new AIError('CLOUD_AI_NOT_CONFIGURED','公网版本尚未配置云端AI，本机Ollama无法从公网服务器访问。',503);
  const now=Date.now();while(hits.length&&hits[0]<now-60000)hits.shift();if(hits.length>=20)throw new AIError('RATE_LIMIT','请求频繁，请稍后重试',429);hits.push(now);
  if(!/^application\/json(?:\s*;|\s*$)/i.test(request.headers.get('content-type')||''))throw new AIError('INVALID','需要 JSON 请求',400);
  release=gate.enter();if(!release)throw new AIError('BUSY','本地模型正在处理其他请求，请稍后重试',429);

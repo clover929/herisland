@@ -13,5 +13,5 @@ import type {Metadata} from "next";
 export const metadata:Metadata={title:"HerIsland · HerSpace 她的社区",description:"成年女性交流与互助社区 · 本地演示"};
 
 export default function Layout({children}:{children:React.ReactNode}) {
-  return <html lang="zh-CN"><body><PageReveal/><LiquidNavigation/><AudioProvider/><GlassFilterDefs/>{children}<LakesideFooter config={footerConfig}/><Sunny cloudUnavailable={process.env.VERCEL==='1'}/></body></html>;
+  return <html lang="zh-CN"><body><PageReveal/><LiquidNavigation/><AudioProvider/><GlassFilterDefs/>{children}<LakesideFooter config={footerConfig}/><Sunny cloudUnavailable={(process.env.VERCEL==='1'||process.env.HERISLAND_HOSTED_DEMO==='1')}/></body></html>;
 }

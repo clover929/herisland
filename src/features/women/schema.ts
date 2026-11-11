@@ -6,11 +6,13 @@ const date=(x:unknown)=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&!Num
 const https=(x:unknown)=>{try{return typeof x==='string'&&new URL(x).protocol==='https:'}catch{return false}};
 export function parseWomen(input:unknown):Woman[]{
  if(!Array.isArray(input)) throw new Error('人物目录必须为数组');
+ // Workers freeze the clock during module evaluation; use the build year there.
+ const currentYear=Number(process.env.HERISLAND_REFERENCE_YEAR)||new Date().getUTCFullYear();
  const ids=new Set(),slugs=new Set();
  for(const x of input){
  if(!object(x)||!['id','slug','nameZh','nameEn'].every(k=>typeof x[k]==='string'&&String(x[k]).trim())||!/^([a-z0-9]+-)*[a-z0-9]+$/.test(String(x.slug))||!['fields','regions','keywords','achievements'].every(k=>strings(x[k]))||!['summary','story'].every(k=>typeof x[k]==='string')||!['candidate','researching','verified','published'].includes(String(x.status))||!date(x.updatedAt)||typeof x.featured!=='boolean'||!Array.isArray(x.sources)||!x.sources.every(s=>object(s)&&typeof s.title==='string'&&s.title.trim()&&https(s.url)&&date(s.checkedAt))||!object(x.image)||!['url','license','credit'].every(k=>typeof (x.image as Record<string,unknown>)[k]==='string') ) throw new Error('人物记录不符合 schema');
  if(typeof x.occupation!=='string'||!Array.isArray(x.facts)||!x.facts.every(f=>object(f)&&typeof f.claim==='string'&&f.claim.trim()&&strings(f.sourceUrls)&&f.sourceUrls.length>0&&f.sourceUrls.every(url=>(x.sources as {url:string}[]).some(s=>s.url===url)))) throw new Error('事实必须关联已记录来源');
- if(!strings(x.editorialNotes)||!Array.isArray(x.timeline)||!x.timeline.every(e=>object(e)&&Number.isInteger(e.year)&&Number(e.year)>0&&Number(e.year)<=new Date().getUTCFullYear()&&typeof e.description==='string'&&e.description.trim()&&strings(e.sourceUrls)&&e.sourceUrls.length>0&&e.sourceUrls.every(url=>(x.sources as {url:string}[]).some(s=>s.url===url)))) throw new Error('时间线必须关联来源且年份有效');
+ if(!strings(x.editorialNotes)||!Array.isArray(x.timeline)||!x.timeline.every(e=>object(e)&&Number.isInteger(e.year)&&Number(e.year)>0&&Number(e.year)<=currentYear&&typeof e.description==='string'&&e.description.trim()&&strings(e.sourceUrls)&&e.sourceUrls.length>0&&e.sourceUrls.every(url=>(x.sources as {url:string}[]).some(s=>s.url===url)))) throw new Error('时间线必须关联来源且年份有效');
  if(x.lastVerifiedAt!==null&&!date(x.lastVerifiedAt)||x.reviewedAt!==null&&!date(x.reviewedAt)) throw new Error('核实及审核日期无效');
  if(['verified','published'].includes(String(x.status))&&(!date(x.lastVerifiedAt)||(x.sources as {checkedAt:string}[]).some(s=>s.checkedAt>String(x.lastVerifiedAt)))) throw new Error('已核实资料需要核实日期');
  if(x.status==='published'&&(!date(x.reviewedAt)||String(x.reviewedAt)<String(x.lastVerifiedAt))) throw new Error('发布前需要完成内容审核');

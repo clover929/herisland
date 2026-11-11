@@ -1,8 +1,9 @@
-import {describe,it,expect} from 'vitest';
+import {describe,it,expect,vi} from 'vitest';
 import candidates from '../src/features/women/candidates.json';
 import {parseWomen,publicWomen,browseWomen} from '../src/features/women/schema';
 const fixture=()=>({...candidates[0],timeline:[],featured:false,fields:['测试领域'],regions:['测试地区'],keywords:['测试词'],occupation:'测试职业',facts:[{claim:'测试事实一',sourceUrls:['https://example.org']},{claim:'测试事实二',sourceUrls:['https://example.org']}],summary:'测'.repeat(100),story:'测'.repeat(300),achievements:['测试成就'],sources:[{title:'测试来源',url:'https://example.org',checkedAt:'2026-11-09'}],status:'published'});
 describe('人物 schema 与发布边界',()=>{
+ it('Workers启动冻结时钟时使用构建年份并拒绝未来事件',()=>{vi.useFakeTimers();vi.setSystemTime(new Date('1970-01-01'));vi.stubEnv('HERISLAND_REFERENCE_YEAR','2026');try{const row={...fixture(),timeline:[{year:2026,description:'有来源的事件',sourceUrls:['https://example.org']}]};expect(parseWomen([row])).toHaveLength(1);expect(()=>parseWomen([{...row,timeline:[{...row.timeline[0],year:2027}]}])).toThrow('时间线')}finally{vi.useRealTimers();vi.unstubAllEnvs()}});
  it('102位唯一目录，首批10位审核发布',()=>{expect(parseWomen(candidates)).toHaveLength(102);expect(publicWomen(candidates)).toHaveLength(10);expect(candidates.filter(w=>w.status==='verified')).toHaveLength(92);expect(candidates.filter(w=>w.status==='candidate')).toHaveLength(0)});
  it('拒绝重复、非法状态、不完整核实和图片版权',()=>{for(const input of [[candidates[0],candidates[0]],[{...candidates[0],status:'other'}],[{...candidates[0],status:'verified',summary:''}],[{...candidates[0],image:{url:'https://example.org/photo',license:'unknown',credit:''}}]])expect(()=>parseWomen(input)).toThrow()});
  it('事实必须映射到来源且核实记录满足篇幅',()=>{expect(()=>parseWomen([{...fixture(),facts:[{claim:'未支持事实',sourceUrls:['https://missing.example']}]}])).toThrow();expect(()=>parseWomen([{...fixture(),summary:'过短'}])).toThrow();expect(()=>parseWomen([{...fixture(),facts:[]}])).toThrow()});

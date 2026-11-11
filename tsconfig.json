@@ -35,10 +35,14 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     ".next-release/types/**/*.ts",
-    ".next-release/dev/types/**/*.ts"
+    ".next-release/dev/types/**/*.ts",
+    ".cloudflare/types/**/*.d.ts"
   ],
   "exclude": [
     "node_modules",
-    "previews"
+    "previews",
+    ".cloudflare",
+    "dist",
+    ".vinext"
   ]
 }

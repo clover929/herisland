@@ -42,3 +42,11 @@ supabase/backups/
 
 # Existing standalone previews stay local; deploy only the main application.
 /previews/
+/dist/
+.vinext/
+.cloudflare/
+
+# Local Cloudflare credentials and emulator data
+.wrangler/
+.dev.vars
+.dev.vars.*
