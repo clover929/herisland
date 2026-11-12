@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
+const source='artifacts/release/cloudbase-source',env='herisland-staging-d8dnse0ea80165';
+const keys=['NEXT_PUBLIC_CLOUDBASE_ENV_ID','NEXT_PUBLIC_CLOUDBASE_REGION','NEXT_PUBLIC_CLOUDBASE_PUBLISHABLE_KEY'];
+for(const key of keys)if(!process.env[key])throw Error('Missing public CloudBase configuration');
+if(process.env.NEXT_PUBLIC_CLOUDBASE_ENV_ID!==env||process.env.NEXT_PUBLIC_CLOUDBASE_REGION!=='ap-shanghai')throw Error('Unexpected deployment target');
+fs.mkdirSync(source,{recursive:true});
+for(const file of ['package.json','package-lock.json','next.config.ts','tsconfig.json','next-env.d.ts','postcss.config.mjs','Dockerfile','.dockerignore'])fs.copyFileSync(file,path.join(source,file));
+for(const dir of ['src','public'])fs.cpSync(dir,path.join(source,dir),{recursive:true});
+let count=0;function inspect(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=path.join(dir,entry.name);if(entry.isSymbolicLink())throw Error('Symlink in deployment context');if(entry.isDirectory())inspect(file);else{if(/^\.env(?:\.|$)|credentials|secret|test-accounts|\.(?:pem|key|p12|pfx)$/.test(entry.name))throw Error('Excluded file in deployment context');count++}}}inspect(source);
+const params={NEXT_PUBLIC_DATA_MODE:'cloudbase',HERISLAND_HOSTED_DEMO:'1',APP_ORIGIN:'https://herisland-346174-9-1530109559.sh.run.tcloudbase.com',...Object.fromEntries(keys.map(key=>[key,process.env[key]]))};
+console.log(`Deploying ${count} reviewed source/static files; no local environment files or server keys.`);
+const result=spawnSync('npm',['exec','--yes','--package=@cloudbase/cli','--','tcb','cloudrun','deploy','-e',env,'--service-name','herisland','--source',source,'--port','3000','--min-num','0','--max-num','1','--open-access-types','PUBLIC','--traffic','--force','--env-params',JSON.stringify(params),'--json'],{encoding:'utf8',maxBuffer:8*1024*1024});
+const clean=value=>String(value||'').replaceAll(params.NEXT_PUBLIC_CLOUDBASE_PUBLISHABLE_KEY,'[public-key-redacted]');
+console.log(clean(result.stdout));if(result.stderr)console.error(clean(result.stderr));process.exitCode=result.status??1;

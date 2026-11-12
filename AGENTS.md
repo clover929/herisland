@@ -1,5 +1,5 @@
 # HerSpace
-遵循本次用户提供的 AGENTS.md 指令。使用 Notion 作为共享记忆，Notion 调用携带 instructions_version 0.0.6。当前项目为本地演示，不接入真实认证、数据库或付费 API。
+遵循本次用户提供的 AGENTS.md 指令。使用 Notion 作为共享记忆，Notion 调用携带 instructions_version 0.0.6。默认演示模式保留；用户已授权 CloudBase 上海 staging 的真实社区接入、部署与验收。Vercel/Cloudflare 演示部署保留，公网 AI 暂不接入。正式公众注册须完成域名、备案主体和邮件验收，不把邀请测试称为正式运营。预算每月最高50元，不自动购买服务。
 使用严格 TypeScript；修改后运行 lint、typecheck、test、build。禁止把 localStorage 当作安全认证。内容使用虚构昵称与明确标注的虚构故事。
 
 <!-- BEGIN:nextjs-agent-rules -->

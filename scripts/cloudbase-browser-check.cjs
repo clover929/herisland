@@ -1,0 +1,7 @@
+const {visit}=require('./cloudbase-visit.cjs');const {chromium}=require('playwright');const fs=require('node:fs');
+(async()=>{const origin=process.env.HERISLAND_TEST_ORIGIN||'http://127.0.0.1:3305',browser=await chromium.launch(),page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],broken=[];
+page.on('pageerror',e=>errors.push(e.message));
+for(const route of ['/','/women','/communities','/discussions','/profile','/create','/login','/register','/auth/reset?request=1','/privacy','/terms']){const r=await visit(page,origin+route);if(r.status()!==200)broken.push({route,status:r.status()});await page.waitForTimeout(700);if(await page.locator('body').innerText().then(s=>s.includes('Application error')))broken.push({route,error:'application error'});}
+for(const width of [1440,1024,390,320]){await page.setViewportSize({width,height:900});await visit(page,origin+'/');await page.waitForTimeout(900);if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))broken.push({width,error:'horizontal overflow'});await page.screenshot({path:`artifacts/release/cloudbase-${width}.png`});}
+const result={origin,errors,broken};fs.writeFileSync('artifacts/release/cloudbase-browser-result.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));await browser.close();if(errors.length||broken.length)process.exit(1);
+})().catch(()=>{console.error('Browser verification failed; credentials were not printed');process.exit(1)});

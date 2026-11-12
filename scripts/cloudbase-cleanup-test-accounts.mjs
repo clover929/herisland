@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+const record=JSON.parse(fs.readFileSync('artifacts/release/cloudbase-test-accounts.json','utf8')),origin='https://herisland-346174-9-1530109559.sh.run.tcloudbase.com',gateway=`https://${record.env}.api.tcloudbasegateway.com`;
+const results=[];
+for(const account of record.accounts){
+ if(record.env!=='herisland-staging-d8dnse0ea80165'||!account.username.startsWith('herislandqa-')||!/^[A-Za-z0-9_-]{1,64}$/.test(account.id||''))throw Error('Refusing non-QA identity');
+ const login=await fetch(gateway+'/auth/v1/signin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({client_id:record.env,username:account.username,password:account.password})});const session=await login.json();const hasToken=login.ok&&!!session.access_token;
+ if(hasToken){const removed=await fetch(origin+'/api/cloudbase/community',{method:'POST',headers:{Authorization:`Bearer ${session.access_token}`,'Content-Type':'application/json'},body:JSON.stringify({action:'delete-account',confirm:'注销我的账户'})});if(!removed.ok&&removed.status!==401)throw Error('QA public-content cleanup failed');}
+ try{execFileSync('npm',['exec','--yes','--package=@cloudbase/cli','--','tcb','user','update',account.id,'-e',record.env,'--status','BLOCKED','--json'],{stdio:['ignore','pipe','pipe']})}catch{throw Error('QA identity blocking failed')}
+ const output=execFileSync('npm',['exec','--yes','--package=@cloudbase/cli','--','tcb','db','execute','-e',record.env,'--sql',`select status from public.profiles where id='${account.id}'`,'--json'],{encoding:'utf8'});const row=JSON.parse(JSON.parse(output).data.Rows[0]);if(row[0]!=='deleted')throw Error('QA profile was not disabled');let oldTokenRejected=null;if(hasToken){const checked=await fetch(origin+'/api/cloudbase/session',{headers:{Authorization:`Bearer ${session.access_token}`}});oldTokenRejected=checked.status===401;if(!oldTokenRejected)throw Error('Application must reject deleted QA sessions; received '+checked.status)}results.push({qaBusinessDisabled:true,providerBlockRequested:true,oldTokenRejected,publicContentHidden:true});
+}
+record.disabledAt=new Date().toISOString();fs.writeFileSync('artifacts/release/cloudbase-test-accounts.json',JSON.stringify(record,null,2),{mode:0o600});fs.writeFileSync('artifacts/release/cloudbase-cleanup-result.json',JSON.stringify({results},null,2));console.log(JSON.stringify({results}));

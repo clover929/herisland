@@ -34,6 +34,7 @@ playwright/.cache/
 # Generated QA output and original image working files (kept locally)
 artifacts/
 .next-release/
+.next-cloudbase/
 .vercel/
 supabase/.temp/
 supabase/.branches/

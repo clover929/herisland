@@ -1,0 +1,8 @@
+import {serverSupabase} from '@/lib/supabase/server';
+import {supabaseMode} from '@/lib/supabase/config';
+import {allowedOrigin} from '@/features/ai/origin';
+import {authJson,AuthInputError} from '@/features/auth/input';
+export const dynamic='force-dynamic';
+const respond=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'private, no-store'}});
+export async function GET(){if(!supabaseMode())return respond({error:'演示模式未连接云端资料'},503);try{const client=await serverSupabase();const {data:{user}}=await client.auth.getUser();if(!user)return respond({error:'请先登录'},401);const {data,error}=await client.from('profiles').select('id,display_name,bio,avatar_path,status').eq('id',user.id).single();if(error)return respond({error:'资料读取失败'},503);return respond({profile:data})}catch{return respond({error:'资料服务暂不可用'},503)}}
+export async function PATCH(request:Request){if(!allowedOrigin(request))return respond({error:'不允许跨站请求'},403);if(!supabaseMode())return respond({error:'演示模式未连接云端资料'},503);try{const client=await serverSupabase();const {data:{user}}=await client.auth.getUser();if(!user)return respond({error:'请先登录'},401);const body=await authJson(request);if(typeof body.displayName!=='string'||!body.displayName.trim()||body.displayName.trim().length>80||typeof body.bio!=='string'||body.bio.length>1000)return respond({error:'昵称或简介格式无效'},400);const {data,error}=await client.from('profiles').update({display_name:body.displayName.trim(),bio:body.bio}).eq('id',user.id).select('id,display_name,bio,avatar_path').single();if(error)return respond({error:'资料未保存，请检查账户状态后重试'},409);return respond({profile:data})}catch(e){return respond({error:e instanceof AuthInputError?e.message:'资料服务暂不可用'},e instanceof AuthInputError?e.status:503)}}

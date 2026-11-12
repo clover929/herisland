@@ -36,7 +36,9 @@
     ".next/dev/types/**/*.ts",
     ".next-release/types/**/*.ts",
     ".next-release/dev/types/**/*.ts",
-    ".cloudflare/types/**/*.d.ts"
+    ".cloudflare/types/**/*.d.ts",
+    ".next-cloudbase/types/**/*.ts",
+    ".next-cloudbase/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
